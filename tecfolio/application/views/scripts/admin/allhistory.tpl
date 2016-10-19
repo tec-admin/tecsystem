@@ -1,0 +1,1 @@
+{include file='common/allhistory.tpl' included='admin'}

@@ -1,0 +1,97 @@
+#lang{
+	width: 110px;
+}
+#lang figure{
+	height: 34px;
+	position: relative;
+	background-color: #f1f1f1;
+	border: 1px solid #aaa;
+}
+#lang figure .name{
+	position: absolute;
+	left: 24px;
+	top: 11px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#lang figure .name:hover{
+	text-decoration: none;
+}
+#lang figure .name i {
+  position: absolute;
+  left: -14px;
+  top: 4px;
+  content: "";
+  position: absolute;
+  display: block;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 7px 4px 0px 4px;
+  border-top-color: #002590;
+}
+#lang .droplist {
+  display: none;
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #666;
+  padding: 0;
+  z-index: 101;
+  background-color: #FFF;
+}
+#lang .wrapdrop {
+  display: block;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  white-space: nowrap;
+}
+#lang .droplist li {
+  padding: 8px 15px;
+  border-bottom: 1px solid #e3e3e3;
+}
+#lang .droplist li a {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  text-decoration: none;
+}
+#lang .droplist li:hover {
+	background-color: #ffdab7;
+	color: #000;
+}
+#lang .droplist li a {
+	color: #000;
+}
+
+#lang .droplist li a:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-color: transparent;
+  border-style: solid;
+  top: 50%;
+  left: 0;
+  margin-top: -4px;
+  border-width: 4px 4px 4px 6px;
+  border-left-color: #002590;
+}
+/* line 119, ../scss/_mixin.scss */
+#lang .droplist li a:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-color: transparent;
+  border-style: solid;
+  top: 50%;
+  left: 0;
+  margin-top: -4px;
+  border-width: 4px 4px 4px 2px;
+  border-left-color: #fff;
+}
+#lang .droplist li:hover a:after {
+  border-left-color: #ffdab7;
+}

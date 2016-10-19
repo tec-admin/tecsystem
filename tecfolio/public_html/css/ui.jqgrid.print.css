@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+
+@media screen {
+	#printSection {
+		
+	}
+}
+
+@media print {
+	body * {
+		visibility:hidden;
+	}
+	#menu {
+		display: none;
+	}
+	#printSection, #printSection * {
+		visibility:visible;
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+	#printSection {
+		position:absolute;
+		padding: 0;
+		margin: 0;
+		left: 0;
+		top: 0;
+		width: 98%;
+		height: auto;
+	    -moz-transform: translate(-50%,-50%);
+	    transform: translate(-50%,-50%);
+	}
+	.dialog {
+		width: 100%;
+	}
+	section.ac-container {
+		margin-left: 3px;
+	}
+	.ac-container label {
+		width: 96%;
+		padding: 12px 0 12px 12px;
+		display:list-item;
+	}
+	
+	.ac-container article {
+		margin-left: 5px;
+		width: 97%;
+	}
+	
+	.dialog > .sub {
+		font-size: 28px;
+	}
+	
+	#basicSettingDialog label {
+		font-size: 24px;
+		margin: 8px 0 8px 5px;
+		background-color: #d7f1cb;
+	}
+	
+	.ac-container input:checked + label {
+		background-image: none;
+	}
+	
+	#basicSettingDialog table thead th, #basicSettingDialog table tbody th {
+		background-color: #efefef;
+		width: 20%;
+		font-size: 20px;
+	}
+	
+	#basicSettingDialog table thead td, #basicSettingDialog table tbody td {
+		width: 30%;
+		font-size: 20px;
+	}
+	
+	table tr th, table tr td {
+		padding: 8px 5px;
+	}
+}

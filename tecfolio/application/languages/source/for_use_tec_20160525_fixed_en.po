@@ -1,0 +1,2812 @@
+# 
+# Translators:
+# mohri miho <mohri@kansai-u.ac.jp>, 2016
+# MOTOMURA, Yasunori <motomura@kansai-u.ac.jp>, 2016
+# RIEKO INABA <inaba@tsuda.ac.jp>, 2016
+# 小林至道 <nkoba@kansai-u.ac.jp>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecfolio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-29 17:02\n"
+"PO-Revision-Date: 2016-03-01 04:58+0000\n"
+"Last-Translator: MOTOMURA, Yasunori <motomura@kansai-u.ac.jp>\n"
+"Language-Team: English (http://www.transifex.com/tokiwa/tecfolio/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: tecfolio/shared/api.tpl:3 tecfolio/shared/api.tpl:71
+msgid "文献情報を追加する"
+msgstr "Add a bibliographic information"
+
+#: tecfolio/shared/api.tpl:7
+msgid "検索対象："
+msgstr "Subject: "
+
+#: tecfolio/shared/api.tpl:8
+msgid "論文名"
+msgstr "Thesis"
+
+#: tecfolio/shared/api.tpl:9 tecfolio/shared/api.tpl:103
+msgid "著者名"
+msgstr "Author"
+
+#: tecfolio/shared/api.tpl:10
+msgid "ISSN"
+msgstr "ISSN"
+
+#: tecfolio/shared/api.tpl:11
+msgid "出版者"
+msgstr "Publisher"
+
+#: tecfolio/shared/api.tpl:12
+msgid "著者所属"
+msgstr "Affiliation"
+
+#: tecfolio/shared/api.tpl:13
+msgid "刊行物名"
+msgstr "Publication"
+
+#: tecfolio/shared/api.tpl:14
+msgid "参考文献名"
+msgstr "Reference books"
+
+#: tecfolio/shared/api.tpl:18
+msgid "出版年 降順"
+msgstr "Year of publication(Z to A)"
+
+#: tecfolio/shared/api.tpl:19
+msgid "出版年 昇順"
+msgstr "Year of publication(A to Z)"
+
+#: tecfolio/shared/api.tpl:20
+msgid "論文名 降順"
+msgstr "Thesis(Z to A)"
+
+#: tecfolio/shared/api.tpl:21
+msgid "論文名 昇順"
+msgstr "Thesis(A to Z)"
+
+#: tecfolio/shared/api.tpl:22
+msgid "刊行物 降順"
+msgstr "Publication(Z to A)"
+
+#: tecfolio/shared/api.tpl:23
+msgid "刊行物 昇順"
+msgstr "Publication(A to Z)"
+
+#: tecfolio/shared/api.tpl:30 tecfolio/shared/api.tpl:83
+msgid "検索"
+msgstr "Search"
+
+#: tecfolio/shared/api.tpl:51
+msgid "著者なし"
+msgstr "no author"
+
+#: tecfolio/shared/api.tpl:52
+msgid "抄録なし"
+msgstr "no summary"
+
+#: tecfolio/shared/api.tpl:54
+msgid "出版者なし"
+msgstr "no publisher"
+
+#: tecfolio/shared/api.tpl:64 tecfolio/shared/api.tpl:116
+msgid "キャンセル"
+msgstr "Cancel"
+
+#: tecfolio/shared/api.tpl:65 tecfolio/shared/api.tpl:117
+msgid "追加する"
+msgstr "Add"
+
+#: tecfolio/shared/api.tpl:76
+msgid "和書"
+msgstr "Japanese books"
+
+#: tecfolio/shared/api.tpl:77
+msgid "洋書"
+msgstr "Foreign books"
+
+#: tecfolio/shared/api.tpl:85
+msgid "%1 件中 %2 - %3 件を表示"
+msgstr "%2-%3 of %1 results"
+
+#: tecfolio/shared/api.tpl:86
+msgid "見つかりませんでした。"
+msgstr "not found"
+
+#: tecfolio/shared/api.tpl:101
+msgid "表紙"
+msgstr "Cover"
+
+#: tecfolio/shared/api.tpl:102
+msgid "書名"
+msgstr "Title"
+
+#: tecfolio/shared/api.tpl:104
+msgid "発行年月"
+msgstr "Publication date"
+
+#: tecfolio/shared/api.tpl:122
+msgid "文献情報を追加しました"
+msgstr "a publication information was added"
+
+#: tecfolio/shared/common_dialog.tpl:6
+msgid "新着情報"
+msgstr "News"
+
+#: tecfolio/shared/common_dialog.tpl:13
+msgid "承諾"
+msgstr "Accept"
+
+#: tecfolio/shared/common_dialog.tpl:13
+msgid "拒否"
+msgstr "Decline"
+
+#: tecfolio/shared/common_dialog.tpl:14
+msgid "%1さんからメンターの依頼が来ています。"
+msgstr "You have been asked to be an mentor for mentoring from %1."
+
+#: tecfolio/shared/common_dialog.tpl:20
+msgid "%1さんからのメンターの依頼を承諾しました。"
+msgstr "You accepted to be an mentor of %1."
+
+#: tecfolio/shared/common_dialog.tpl:22
+msgid "%1さんからのメンターの依頼を拒否しました。"
+msgstr "You declined to be an mentor of %1."
+
+#: tecfolio/shared/common_dialog.tpl:28
+msgid "%1さんにメンターの依頼をしています。"
+msgstr "You have asked %1 to be a mentor."
+
+#: tecfolio/shared/common_dialog.tpl:34
+msgid "%1さんへのメンターの依頼が承諾されました。"
+msgstr "Your request were accepted from %1."
+
+#: tecfolio/shared/common_dialog.tpl:36
+msgid "%1さんへのメンターの依頼が承諾されませんでした。"
+msgstr "Your request were not accepted from %1."
+
+#: tecfolio/shared/common_dialog.tpl:41
+msgid "新着なし"
+msgstr "No updates"
+
+#: tecfolio/shared/common_dialog.tpl:47 tecfolio/shared/common_dialog.tpl:141
+msgid "OK"
+msgstr "OK"
+
+#: tecfolio/shared/common_dialog.tpl:54
+msgid "メンターの依頼を承諾しました。"
+msgstr "You accepted to be a mentor."
+
+#: tecfolio/shared/common_dialog.tpl:57
+msgid "メンターの依頼を拒否しました。"
+msgstr "You declined to be a mentor."
+
+#: tecfolio/shared/common_dialog.tpl:65
+msgid "テーマを追加する"
+msgstr "Add a theme"
+
+#: tecfolio/shared/common_dialog.tpl:68
+msgid "Myテーマに新たなテーマを追加します。テーマ名称を入力してください"
+msgstr "New theme will be added to My Theme. Please input a theme title."
+
+#: tecfolio/shared/common_dialog.tpl:71 tecfolio/shared/common_dialog.tpl:96
+msgid "テーマ名称："
+msgstr "Theme title: "
+
+#: tecfolio/shared/common_dialog.tpl:76
+msgid "登録する"
+msgstr "Register"
+
+#: tecfolio/shared/common_dialog.tpl:81
+msgid "Myテーマを追加しました"
+msgstr "Theme title of My Theme category has been added."
+
+#: tecfolio/shared/common_dialog.tpl:90
+msgid "テーマを編集する"
+msgstr "Edit theme title"
+
+#: tecfolio/shared/common_dialog.tpl:93
+msgid "テーマ名称を編集してください"
+msgstr "Edit the theme title."
+
+#: tecfolio/shared/common_dialog.tpl:101
+msgid "編集する"
+msgstr "Edit"
+
+#: tecfolio/shared/common_dialog.tpl:106
+msgid "Myテーマを変更しました"
+msgstr "Theme title was changed."
+
+#: tecfolio/shared/common_dialog.tpl:116
+msgid "テーマを削除する"
+msgstr "Remove the theme"
+
+#: tecfolio/shared/common_dialog.tpl:124
+msgid "削除する"
+msgstr "Remove"
+
+#: tecfolio/shared/common_dialog.tpl:129
+msgid "Myテーマを削除しました"
+msgstr "The theme was removed."
+
+#: tecfolio/shared/common_dialog.tpl:136 tecfolio/shared/common_dialog.tpl:138
+msgid "エラー"
+msgstr "Error"
+
+#: tecfolio/shared/common_menu.tpl:2
+msgid "同名のテーマが既に登録されています"
+msgstr "An identical theme has been registered already."
+
+#: tecfolio/shared/common_menu.tpl:3
+msgid "テーマ名称を入力してください"
+msgstr "Input a theme title"
+
+#: tecfolio/shared/common_menu.tpl:8
+msgid "TECコモンズ"
+msgstr "TEC-commons"
+
+#: tecfolio/shared/common_menu.tpl:12
+msgid "Myテーマ"
+msgstr "My Theme"
+
+#: tecfolio/shared/common_menu.tpl:16
+msgid "テーマを作成します"
+msgstr "Add a theme"
+
+#: tecfolio/shared/common_menu.tpl:23
+msgid "上へ"
+msgstr "Up"
+
+#: tecfolio/shared/common_menu.tpl:24
+msgid "下へ"
+msgstr "Down"
+
+#: tecfolio/shared/common_menu.tpl:25
+msgid "名称編集"
+msgstr "Edit"
+
+#: tecfolio/shared/common_menu.tpl:26
+msgid "利用しない"
+msgstr "Not use"
+
+#: tecfolio/shared/common_menu.tpl:27
+msgid "テーマ削除"
+msgstr "Remove theme"
+
+#: tecfolio/shared/common_menu.tpl:34
+msgid "<利用しないテーマ>"
+msgstr "<unused theme>"
+
+#: tecfolio/shared/common_menu.tpl:56
+msgid "授業科目"
+msgstr "Course"
+
+#: tecfolio/shared/common_menu.tpl:69
+msgid "学内施設"
+msgstr "Centers on campus"
+
+#: tecfolio/shared/common_menu.tpl:81
+msgid "メンター依頼者"
+msgstr "Clients"
+
+#: tecfolio/shared/common_top.tpl:9
+msgid "ファイル置場"
+msgstr "File Box"
+
+#: tecfolio/shared/common_top.tpl:12
+msgid "ポートフォリオ"
+msgstr "Portfolio"
+
+#: tecfolio/shared/common_top.tpl:15
+msgid "ルーブリック"
+msgstr "Rubric"
+
+#: tecfolio/shared/common_top.tpl:33
+msgid "個人設定"
+msgstr "Personal Settings"
+
+#: tecfolio/shared/common_top.tpl:35
+msgid "授業科目設定"
+msgstr "Course Roster"
+
+#: tecfolio/shared/common_top.tpl:37
+msgid "ログアウト"
+msgstr "Logout"
+
+#: tecfolio/shared/file_dialog.tpl:2
+msgid "ファイルをアップロードしました"
+msgstr "The file has been uploaded."
+
+#: tecfolio/shared/file_dialog.tpl:7 tecfolio/shared/file_dialog.tpl:28
+msgid "コンテンツをゴミ箱へ移動"
+msgstr "Move the items to trash-can."
+
+#: tecfolio/shared/file_dialog.tpl:10
+msgid "選択したコンテンツをゴミ箱へ移動します。完全な削除はゴミ箱タブをクリックして削除操作を行ってください。"
+msgstr "Selected items will be moved to trash-can. If you want to complete removal, click a trash-can tab, and do removal operation."
+
+#: tecfolio/shared/file_dialog.tpl:15
+msgid "移動する"
+msgstr "Move"
+
+#: tecfolio/shared/file_dialog.tpl:19
+msgid "コンテンツをゴミ箱へ移動しました"
+msgstr "The items have been moved to trash-can."
+
+#: tecfolio/shared/file_dialog.tpl:23
+msgid "コンテンツをゴミ箱から元に戻しました"
+msgstr "The items were restored from trash-can."
+
+#: tecfolio/shared/file_dialog.tpl:31 tecfolio/shared/file_dialog.tpl:57
+msgid "削除するコンテンツにチェックを入れてください。"
+msgstr "Check the removing items."
+
+#: tecfolio/shared/file_dialog.tpl:41
+msgid "コンテンツを元に戻す"
+msgstr "Restoring the items."
+
+#: tecfolio/shared/file_dialog.tpl:44
+msgid "元に戻すコンテンツにチェックを入れてください。"
+msgstr "Check the restore items."
+
+#: tecfolio/shared/file_dialog.tpl:54
+msgid "コンテンツを完全削除"
+msgstr "Removing the items completely"
+
+#: tecfolio/shared/file_dialog.tpl:67
+msgid "コンテンツを一括ダウンロード"
+msgstr "Batch download"
+
+#: tecfolio/shared/file_dialog.tpl:70
+msgid "ダウンロードするコンテンツにチェックを入れてください。"
+msgstr "Check the downloading items."
+
+#: tecfolio/shared/file_dialog.tpl:80
+msgid "コンテンツの完全削除"
+msgstr "Remove the items completely"
+
+#: tecfolio/shared/file_dialog.tpl:83
+msgid ""
+"選択したコンテンツを完全に削除します。ルーブリックとの関連/自己評価/メンター評価/ポートフォリオとの関連が削除されます。これらは元に戻せません。よろしいですか？"
+msgstr "Selected items will be removed completely.  Connection with Rubric, self assessment, mentor assessment and Portfolio will be removed. This operation can not reinstate. Are you sure?"
+
+#: tecfolio/shared/file_dialog.tpl:92
+msgid "コンテンツを完全に削除しました"
+msgstr "The items were removed completely."
+
+#: tecfolio/common/file.tpl:5
+msgid "ポートフォリオで参照されているコンテンツをゴミ箱に移動することはできません"
+msgstr "The items to which a Portfolio referred can not move to trash-can. "
+
+#: tecfolio/common/file.tpl:6 tecfolio/common/file.tpl:7
+msgid "検索ワードを入力してください"
+msgstr "Input a keyword."
+
+#: tecfolio/common/file.tpl:218
+msgid "データなし"
+msgstr "Data is not found."
+
+#: tecfolio/common/file.tpl:268
+msgid "取り組み期間：%1～"
+msgstr "Starting date: %1"
+
+#: tecfolio/common/file.tpl:272 tecfolio/common/file.tpl:317
+#: tecfolio/common/file.tpl:333 tecfolio/common/file.tpl:371
+msgid "コンテンツ"
+msgstr "Items"
+
+#: tecfolio/common/file.tpl:273
+msgid "ゴミ箱"
+msgstr "Trash-can"
+
+#: tecfolio/common/file.tpl:279
+msgid "選択したコンテンツをゴミ箱へ移動します"
+msgstr "Checked items will be moved to trash-can."
+
+#: tecfolio/common/file.tpl:283
+msgid "コンテンツを追加します"
+msgstr "Add items"
+
+#: tecfolio/common/file.tpl:287
+msgid "パソコンからコンテンツを追加します※Ctrlで複数選択ができます"
+msgstr "An item is added here from local PC. ※In a dialogue box, more than one item is chosen by  Ctrl-key."
+
+#: tecfolio/common/file.tpl:287
+msgid "パソコンから"
+msgstr "From local PC"
+
+#: tecfolio/common/file.tpl:290
+msgid "Amazonから文献情報を追加します"
+msgstr "A bibliographic information is added by Amazon search"
+
+#: tecfolio/common/file.tpl:290
+msgid "Amazon"
+msgstr "Amazon"
+
+#: tecfolio/common/file.tpl:291
+msgid "Ciniiから文献情報を追加します"
+msgstr "A bibliographic information is added by Cinii search."
+
+#: tecfolio/common/file.tpl:291
+msgid "Cinii"
+msgstr "Cinii"
+
+#: tecfolio/common/file.tpl:297
+msgid "他テーマのファイル置場へコンテンツをコピーします"
+msgstr "Items are copied to File Box in other theme"
+
+#: tecfolio/common/file.tpl:301
+msgid "コンテンツを一括ダウンロードします"
+msgstr "A batch of items are downloaded"
+
+#: tecfolio/common/file.tpl:315 tecfolio/common/file.tpl:331
+#: tecfolio/common/file.tpl:369
+msgid "No."
+msgstr "No."
+
+#: tecfolio/common/file.tpl:316 tecfolio/common/file.tpl:332
+#: tecfolio/common/file.tpl:370
+msgid "類"
+msgstr "Type"
+
+#: tecfolio/common/file.tpl:318 tecfolio/common/file.tpl:334
+#: tecfolio/common/file.tpl:372
+msgid "サイズ"
+msgstr "Size"
+
+#: tecfolio/common/file.tpl:319 tecfolio/common/file.tpl:335
+#: tecfolio/common/file.tpl:373
+msgid "アップロード日時"
+msgstr "Upload Date"
+
+#: tecfolio/common/file.tpl:351
+msgid "選択したコンテンツを操作します"
+msgstr "Chosen items will be operated"
+
+#: tecfolio/common/file.tpl:354
+msgid "元に戻す"
+msgstr "Undo"
+
+#: tecfolio/common/file.tpl:355
+msgid "完全削除"
+msgstr "Completely removing"
+
+#: tecfolio/common/file.tpl:390
+msgid "存在しないか、アクセス許可のないIDです。"
+msgstr "It does not exist, or the ID does not have a privilege."
+
+#: tecfolio/common/file.tpl:392
+msgid "左のメニューからテーマを選択してください。"
+msgstr "Please select a theme from the left menu"
+
+#: tecfolio/common/file.tpl:403 tecfolio/common/file.tpl:430
+#: tecfolio/common/file.tpl:443
+msgid "コンテンツのコピー"
+msgstr "Duplicate an item"
+
+#: tecfolio/common/file.tpl:406
+msgid "以下のコンテンツをコピーします。"
+msgstr "A following item will be duplicated."
+
+#: tecfolio/common/file.tpl:408 tecfolio/common/file.tpl:446
+msgid "コピー先を選択してください。"
+msgstr "Choose a destination to duplicate"
+
+#: tecfolio/common/file.tpl:423
+msgid "コピーする"
+msgstr "Duplicate"
+
+#: tecfolio/common/file.tpl:433
+msgid "コピーするコンテンツにチェックを入れてください。"
+msgstr "Check off the duplicating item."
+
+#: tecfolio/common/file.tpl:455
+msgid "コンテンツを %1 へコピーしました"
+msgstr "The checked items were duplicated to %1"
+
+#: tecfolio/common/file.subject.tpl:496 tecfolio/common/file.subject.tpl:498
+msgid "メンバー： %1 名"
+msgstr "Number of member: %1"
+
+#: tecfolio/common/file.subject.tpl:550 tecfolio/common/file.subject.tpl:567
+#: tecfolio/common/file.subject.tpl:652
+msgid "投稿者"
+msgstr "Authored by"
+
+#: tecfolio/common/file.subject.tpl:584 tecfolio/common/file.subject.tpl:704
+msgid "メンバーと相談する"
+msgstr "Argument with a member"
+
+#: tecfolio/common/file.subject.tpl:594
+msgid "コンテンツを添付します"
+msgstr "Attach"
+
+#: tecfolio/common/file.subject.tpl:597
+msgid "パソコンからコンテンツを添付します※Ctrlで複数選択ができます"
+msgstr "An item is attached here from local PC. In a dialogue box, more than one item is chosen by  Ctrl-key."
+
+#: tecfolio/common/file.subject.tpl:598
+msgid "Amazonから文献情報を添付します"
+msgstr "A bibliographic information is attached from Amazon search"
+
+#: tecfolio/common/file.subject.tpl:599
+msgid "Ciniiから文献情報を添付します"
+msgstr "A bibliographic information is attached from Cinii search."
+
+#: tecfolio/common/file.subject.tpl:604 tecfolio/common/file.subject.tpl:690
+msgid "添付リスト"
+msgstr "Attachments"
+
+#: tecfolio/common/file.subject.tpl:609
+msgid "リセット"
+msgstr "Reset"
+
+#: tecfolio/common/file.subject.tpl:610
+msgid "送信"
+msgstr "Send"
+
+#: tecfolio/common/file.subject.tpl:680
+msgid "他のメンバーがアップロードしたファイルは操作できません。"
+msgstr "You can't operate the files uploaded by other members."
+
+#: tecfolio/common/file.subject.tpl:707
+msgid "本文を入力してください"
+msgstr "Input an article"
+
+#: tecfolio/common/file.subject.tpl:715
+msgid "掲示板に書き込みました"
+msgstr "The article was sent"
+
+#: tecfolio/common/file.subject.tpl:723
+msgid "投稿の削除"
+msgstr "Remove an article"
+
+#: tecfolio/common/file.subject.tpl:726
+msgid "投稿を削除しますか？（添付ファイルはコンテンツリストに残ります）"
+msgstr "Do you remove the article? attached file will be maintained."
+
+#: tecfolio/common/file.subject.tpl:735
+msgid "投稿を削除しました"
+msgstr "The article was removed."
+
+#: tecfolio/common/file.subject.tpl:740
+msgid "メンバーの表示"
+msgstr "Showing the member list"
+
+#: tecfolio/common/file.subject.tpl:747
+msgid "学籍番号"
+msgstr "Student ID"
+
+#: tecfolio/common/file.subject.tpl:748
+msgid "氏名"
+msgstr "Full Name"
+
+#: tecfolio/common/portfolio.tpl:163
+msgid "選択したユニットをポートフォリオから解除します"
+msgstr "Selected the Units will be removed from Portfolio"
+
+#: tecfolio/common/portfolio.tpl:168 tecfolio/common/portfolio.tpl:172
+msgid "ユニットを追加します"
+msgstr "Add an Unit"
+
+#: tecfolio/common/portfolio.tpl:199
+msgid "すべて"
+msgstr "All"
+
+#: tecfolio/common/portfolio.tpl:206
+msgid "詳細"
+msgstr "Details"
+
+#: tecfolio/common/portfolio.tpl:227 tecfolio/common/portfolio.tpl:242
+msgid "ユニット"
+msgstr "Unit"
+
+#: tecfolio/common/portfolio.tpl:229 tecfolio/common/portfolio.tpl:244
+msgid "自己評価"
+msgstr "Self Assessment"
+
+#: tecfolio/common/portfolio.tpl:230 tecfolio/common/portfolio.tpl:245
+msgid "メンター評価"
+msgstr "Mentor Assessment"
+
+#: tecfolio/common/portfolio.tpl:265
+msgid "編集"
+msgstr "Edit"
+
+#: tecfolio/common/portfolio.tpl:271
+msgid "◆ユニット"
+msgstr "◆Unit"
+
+#: tecfolio/common/portfolio.tpl:279
+msgid "◆コンテンツ"
+msgstr "◆Items"
+
+#: tecfolio/common/portfolio.tpl:279
+msgid "追加"
+msgstr "Add"
+
+#: tecfolio/common/portfolio.tpl:288
+msgid "◆ルーブリック"
+msgstr "◆Rubric"
+
+#: tecfolio/common/portfolio.tpl:288
+msgid "選択"
+msgstr "Select"
+
+#: tecfolio/common/portfolio.tpl:291
+msgid "選択してください"
+msgstr "Select"
+
+#: tecfolio/common/portfolio.tpl:298
+msgid "◆自己評価"
+msgstr "◆Self assessment"
+
+#: tecfolio/common/portfolio.tpl:301 tecfolio/common/portfolio.tpl:319
+msgid "未評価"
+msgstr "Not assessed yet"
+
+#: tecfolio/common/portfolio.tpl:306 tecfolio/common/portfolio.tpl:324
+msgid "◆コメント"
+msgstr "◆Comment"
+
+#: tecfolio/common/portfolio.tpl:310 tecfolio/common/portfolio.tpl:328
+#: tecfolio/common/portfolio.tpl:768 tecfolio/common/portfolio.tpl:811
+msgid "未記入"
+msgstr "Not described yet"
+
+#: tecfolio/common/portfolio.tpl:316
+msgid "◆メンター評価"
+msgstr "◆Mentor assessment"
+
+#: tecfolio/common/portfolio.tpl:337
+msgid "◆ショーケース"
+msgstr "◆Showcase"
+
+#: tecfolio/common/portfolio.tpl:341
+msgid "使用する"
+msgstr "Use"
+
+#: tecfolio/common/portfolio.tpl:361
+msgid "学習者と相談する"
+msgstr "Chatting with client"
+
+#: tecfolio/common/portfolio.tpl:361 tecfolio/common/portfolio.tpl:932
+msgid "メンターと相談する"
+msgstr "Chatting with mentor"
+
+#: tecfolio/common/portfolio.tpl:366
+msgid "メンター"
+msgstr "Mentor"
+
+#: tecfolio/common/portfolio.tpl:368
+msgid "未選択"
+msgstr "Not selected yet"
+
+#: tecfolio/common/portfolio.tpl:368
+msgid "(承認待ち)"
+msgstr "(waiting approval)"
+
+#: tecfolio/common/portfolio.tpl:377
+msgid "ユニット："
+msgstr "Unit: "
+
+#: tecfolio/common/portfolio.tpl:385
+msgid "本文："
+msgstr "Message: "
+
+#: tecfolio/common/portfolio.tpl:422 tecfolio/common/portfolio.tpl:564
+msgid "ファイル置場から追加"
+msgstr "Add from File Box"
+
+#: tecfolio/common/portfolio.tpl:425
+msgid "◆Step1：ユニットタイトルを入力してください"
+msgstr "◆Step 1: Input the Title"
+
+#: tecfolio/common/portfolio.tpl:431
+msgid "◆Step2：コンテンツを選択してください"
+msgstr "◆Step 2: Select an item"
+
+#: tecfolio/common/portfolio.tpl:446 tecfolio/common/portfolio.tpl:509
+#: tecfolio/common/portfolio.tpl:1483 tecfolio/common/portfolio.tpl:1498
+msgid "ライティングラボ"
+msgstr "Writing Center"
+
+#: tecfolio/common/portfolio.tpl:491 tecfolio/common/portfolio.tpl:551
+msgid "コンテンツを追加する"
+msgstr "Add an item"
+
+#: tecfolio/common/portfolio.tpl:494
+msgid "◆コンテンツを選択してください"
+msgstr "◆Select an item"
+
+#: tecfolio/common/portfolio.tpl:546
+msgid "コンテンツを追加しました"
+msgstr "The item has been added"
+
+#: tecfolio/common/portfolio.tpl:554
+msgid "コンテンツにチェックを入れてください"
+msgstr "Check the items"
+
+#: tecfolio/common/portfolio.tpl:567 tecfolio/common/portfolio.tpl:646
+msgid "タイトルを入力してください"
+msgstr "Input the Unit title."
+
+#: tecfolio/common/portfolio.tpl:576
+msgid "ポートフォリオにユニットを追加しました"
+msgstr "The Unit has been added to Portfolio"
+
+#: tecfolio/common/portfolio.tpl:581 tecfolio/common/portfolio.tpl:598
+msgid "ユニットの解除"
+msgstr "Remove an Unit"
+
+#: tecfolio/common/portfolio.tpl:584
+msgid ""
+"選択したユニットをポートフォリオから解除します。ルーブリックとの関連/自己評価/メンター評価は解除されますが、コンテンツはファイル置場に残ります。よろしいですか？"
+msgstr "Selected the Units will be removed from Portfolio.  The connection with Rubric, self assessment and mentor assessment will be removed from Portfolio. But the items remain in File Box. Are you sure?"
+
+#: tecfolio/common/portfolio.tpl:589 tecfolio/common/portfolio.tpl:667
+#: tecfolio/common/portfolio.tpl:726
+msgid "解除する"
+msgstr "Removing a connection"
+
+#: tecfolio/common/portfolio.tpl:593
+msgid "ユニットを解除しました"
+msgstr "The Unit has been removed"
+
+#: tecfolio/common/portfolio.tpl:601
+msgid "解除するコンテンツにチェックを入れてください"
+msgstr "Check off the items which you need to release from portfolio."
+
+#: tecfolio/common/portfolio.tpl:610
+msgid "変更内容を保存しました"
+msgstr "The contents has been saved"
+
+#: tecfolio/common/portfolio.tpl:623 tecfolio/common/portfolio.tpl:643
+msgid "タイトルを変更する"
+msgstr "Changing the Unit title"
+
+#: tecfolio/common/portfolio.tpl:627
+msgid "◆タイトルを入力してください"
+msgstr "◆Input the Unit title"
+
+#: tecfolio/common/portfolio.tpl:634
+msgid "変更する"
+msgstr "Changing the contents"
+
+#: tecfolio/common/portfolio.tpl:639
+msgid "タイトルを変更しました"
+msgstr "The Unit title has been changed."
+
+#: tecfolio/common/portfolio.tpl:659
+msgid "コンテンツを解除する"
+msgstr "Removing item from the title"
+
+#: tecfolio/common/portfolio.tpl:662
+msgid "コンテンツ「%1」をユニットへの引用から解除します。コンテンツはファイル置場に残ります。よろしいですか？"
+msgstr "The item \"%1\" will be removed from the unit. But the items remain in File Box. Are you sure?"
+
+#: tecfolio/common/portfolio.tpl:672
+msgid "コンテンツを解除しました"
+msgstr "The item has been removed"
+
+#: tecfolio/common/portfolio.tpl:679 tecfolio/common/portfolio.tpl:699
+#: tecfolio/common/portfolio.tpl:736
+msgid "ルーブリックを選択する"
+msgstr "Select a rubric"
+
+#: tecfolio/common/portfolio.tpl:683
+msgid "ルーブリックを選択"
+msgstr "Select a rubric"
+
+#: tecfolio/common/portfolio.tpl:693
+msgid "選択する"
+msgstr "Select"
+
+#: tecfolio/common/portfolio.tpl:702
+msgid "選択中のユニットにルーブリックを設定します。自己評価/メンター評価と各コメントが入力されている場合、全て削除されます。よろしいですか？"
+msgstr "Rubric will be connected with selected Unit.  If assessments or comments exist, it will be removed.  Are you sure?"
+
+#: tecfolio/common/portfolio.tpl:718
+msgid "ルーブリックの解除"
+msgstr "Canceling the connection with rubric"
+
+#: tecfolio/common/portfolio.tpl:721
+msgid "選択中のユニットからルーブリックを解除します。自己評価/メンター評価と各コメントが削除されます。これらは元に戻せません。よろしいですか？"
+msgstr "Rubric will be cancelled the connection with selected Unit.  if assessments or comments exist, it will be deleted.  This operation can't be canceled.  Are you sure?"
+
+#: tecfolio/common/portfolio.tpl:731
+msgid "ルーブリックを解除しました"
+msgstr "The relation between rubric and item has been removed"
+
+#: tecfolio/common/portfolio.tpl:739
+msgid "ルーブリックを選択してください"
+msgstr "Select a rubric"
+
+#: tecfolio/common/portfolio.tpl:753 tecfolio/common/portfolio.tpl:796
+msgid "ルーブリックで評価する"
+msgstr "Make an assessment by rubric"
+
+#: tecfolio/common/portfolio.tpl:753
+msgid "自己評価の詳細"
+msgstr "Detail of self assessment"
+
+#: tecfolio/common/portfolio.tpl:760 tecfolio/common/portfolio.tpl:803
+msgid "平均：%1"
+msgstr "Average: %1"
+
+#: tecfolio/common/portfolio.tpl:765 tecfolio/common/portfolio.tpl:808
+msgid "コメント"
+msgstr "Comment"
+
+#: tecfolio/common/portfolio.tpl:777 tecfolio/common/portfolio.tpl:819
+msgid "保存する"
+msgstr "Save"
+
+#: tecfolio/common/portfolio.tpl:787
+msgid "自己評価を設定しました"
+msgstr "Self assessment has been made"
+
+#: tecfolio/common/portfolio.tpl:796
+msgid "メンター評価の詳細"
+msgstr "Detail of mentor assessment"
+
+#: tecfolio/common/portfolio.tpl:829
+msgid "メンター評価を設定しました"
+msgstr "Mentor assessment has been made"
+
+#: tecfolio/common/portfolio.tpl:834 tecfolio/common/portfolio.tpl:893
+#: tecfolio/common/portfolio.tpl:906 tecfolio/common/portfolio.tpl:919
+msgid "メンターを探す"
+msgstr "Looking for a mentor"
+
+#: tecfolio/common/portfolio.tpl:839
+msgid "◆氏名を入力してください"
+msgstr "◆Input your full name"
+
+#: tecfolio/common/portfolio.tpl:861
+msgid "◆検索結果"
+msgstr "◆Search result"
+
+#: tecfolio/common/portfolio.tpl:866 tecfolio/common/portfolio.tpl:1168
+#: tecfolio/common/portfolio.tpl:1174
+msgid "検索していません"
+msgstr "Not searched"
+
+#: tecfolio/common/portfolio.tpl:874
+msgid "選択中のユーザー"
+msgstr "Selected user"
+
+#: tecfolio/common/portfolio.tpl:875
+msgid "プロフィール画像"
+msgstr "Picture"
+
+#: tecfolio/common/portfolio.tpl:876 tecfolio/common/portfolio.tpl:1160
+msgid "選択されていません"
+msgstr "Not selected"
+
+#: tecfolio/common/portfolio.tpl:885
+msgid "依頼する"
+msgstr "Make a request"
+
+#: tecfolio/common/portfolio.tpl:896
+msgid "条件に一致するユーザーが多すぎます。条件を変更して再度検索してください"
+msgstr "Too many items are matched with the condition. Please change the condition and search again."
+
+#: tecfolio/common/portfolio.tpl:909
+msgid "条件に一致するユーザーが見つかりませんでした"
+msgstr "User was not found."
+
+#: tecfolio/common/portfolio.tpl:922
+msgid "メンターを依頼するユーザーを選択してください"
+msgstr "Select the user who is your mentor."
+
+#: tecfolio/common/portfolio.tpl:944
+msgid "メンターを依頼しました"
+msgstr "A request has been sent"
+
+#: tecfolio/common/portfolio.tpl:948
+msgid "メッセージを送信しました"
+msgstr "Message has been sent"
+
+#: tecfolio/common/portfolio.tpl:953
+msgid "メンバーの詳細"
+msgstr "Member's details"
+
+#: tecfolio/common/portfolio.tpl:974
+msgid "言語"
+msgstr "Language"
+
+#: tecfolio/common/portfolio.tpl:978
+msgid "メールアドレス 1"
+msgstr "Email account 1"
+
+#: tecfolio/common/portfolio.tpl:982
+msgid "メールアドレス 2"
+msgstr "Email account 2"
+
+#: tecfolio/common/portfolio.tpl:986
+msgid "メールアドレス 3"
+msgstr "Email account 3"
+
+#: tecfolio/common/portfolio.tpl:991
+msgid "学部"
+msgstr "Faculty"
+
+#: tecfolio/common/portfolio.tpl:995
+msgid "学科"
+msgstr "Department"
+
+#: tecfolio/common/portfolio.tpl:1000
+msgid "所属"
+msgstr "Association"
+
+#: tecfolio/common/portfolio.tpl:1005
+msgid "専攻/専修/コース"
+msgstr "Major course"
+
+#: tecfolio/common/portfolio.tpl:1009
+msgid "ゼミ"
+msgstr "Research seminar"
+
+#: tecfolio/common/portfolio.tpl:1013
+msgid "卒業した高校"
+msgstr "Graduated from"
+
+#: tecfolio/common/portfolio.tpl:1017
+msgid "誕生日"
+msgstr "Birthday"
+
+#: tecfolio/common/portfolio.tpl:1021
+msgid "性別"
+msgstr "Gender"
+
+#: tecfolio/common/portfolio.tpl:1025
+msgid "出身地"
+msgstr "Hometown"
+
+#: tecfolio/common/portfolio.tpl:1245
+msgid "評価の観点"
+msgstr "Viewpoints"
+
+#: tecfolio/common/portfolio.tpl:1249
+msgid "評価の観点の説明"
+msgstr "Descriptions"
+
+#: tecfolio/common/rubric.tpl:5
+msgid "ファイル「%1」が見つかりません"
+msgstr "The file \"%1\" is  not found"
+
+#: tecfolio/common/rubric.tpl:6
+msgid "Excelファイルを指定してください"
+msgstr "Select a file generated by EXCEL"
+
+#: tecfolio/common/rubric.tpl:7
+msgid "評点を入力してください(%1%2)"
+msgstr "Input a grade point(%1%2)."
+
+#: tecfolio/common/rubric.tpl:8
+msgid "評点は0以上100以下の数値を入力してください(%1%2)"
+msgstr "Input the grade point of more than 0 less than 100(%1%2)."
+
+#: tecfolio/common/rubric.tpl:9
+msgid "評点は重複のない値を入力してください"
+msgstr "Do not overlap the grade point"
+
+#: tecfolio/common/rubric.tpl:10
+msgid "尺度は%1項目以内で入力してください"
+msgstr "Input the scale level of rubric within %1 items."
+
+#: tecfolio/common/rubric.tpl:11
+msgid "観点は%1項目以内で入力してください"
+msgstr "Input the dimension of rubric within %1 items."
+
+#: tecfolio/common/rubric.tpl:12
+msgid "尺度の説明を入力してください(%1%2)"
+msgstr "Input the description of scale level(%1%2)."
+
+#: tecfolio/common/rubric.tpl:14
+msgid "コピー先に同一のルーブリックが存在します"
+msgstr "Identical rubric exists at destination"
+
+#: tecfolio/common/rubric.tpl:15
+msgid "ライセンスを選択してください"
+msgstr "Select a license."
+
+#: tecfolio/common/rubric.tpl:16
+msgid "内容を入力してください"
+msgstr "Fill in the form."
+
+#: tecfolio/common/rubric.tpl:17
+msgid "評点の数と尺度の数が一致しません"
+msgstr "The number of grade point isn't consistent with scale level."
+
+#: tecfolio/common/rubric.tpl:55
+msgid "ルーブリックを削除します"
+msgstr "Delete rubrics"
+
+#: tecfolio/common/rubric.tpl:60
+msgid "ルーブリックをインポートします"
+msgstr "Import a rubric"
+
+#: tecfolio/common/rubric.tpl:66
+msgid "ルーブリックをエクスポートします"
+msgstr "Export a rubric"
+
+#: tecfolio/common/rubric.tpl:70
+msgid "ルーブリックを他のテーマへコピーします"
+msgstr "Copying rubrics to other theme"
+
+#: tecfolio/common/rubric.tpl:85 tecfolio/common/rubric.tpl:100
+msgid "ルーブリック名称"
+msgstr "Rubric title"
+
+#: tecfolio/common/rubric.tpl:86 tecfolio/common/rubric.tpl:101
+msgid "原著者"
+msgstr "Original"
+
+#: tecfolio/common/rubric.tpl:87 tecfolio/common/rubric.tpl:102
+msgid "改変者"
+msgstr "Change"
+
+#: tecfolio/common/rubric.tpl:88 tecfolio/common/rubric.tpl:103
+msgid "最終更新日時"
+msgstr "Last update"
+
+#: tecfolio/common/rubric.tpl:89 tecfolio/common/rubric.tpl:104
+msgid "ライセンス"
+msgstr "Licenses"
+
+#: tecfolio/common/rubric.tpl:124
+msgid "ルーブリックの表示"
+msgstr "Browsing a rubric"
+
+#: tecfolio/common/rubric.tpl:136
+msgid "課題文"
+msgstr "Explanation of task"
+
+#: tecfolio/common/rubric.tpl:148
+msgid "メモ"
+msgstr "Note"
+
+#: tecfolio/common/rubric.tpl:166 tecfolio/common/rubric.tpl:183
+msgid "ルーブリックの削除"
+msgstr "Remove a rubric"
+
+#: tecfolio/common/rubric.tpl:169
+msgid "選択されたルーブリックを削除します。この操作は元に戻せません。よろしいですか？"
+msgstr "The selected rubric will be removed.  this operation can't be canceled.  are you sure?"
+
+#: tecfolio/common/rubric.tpl:178
+msgid "ルーブリックを削除しました"
+msgstr "The rubric has been removed."
+
+#: tecfolio/common/rubric.tpl:186
+msgid "削除するルーブリックにチェックを入れてください。"
+msgstr "Check off the rubric which you need to remove."
+
+#: tecfolio/common/rubric.tpl:196 tecfolio/common/rubric.tpl:209
+msgid "ルーブリックのエクスポート"
+msgstr "Export a rubric"
+
+#: tecfolio/common/rubric.tpl:199
+msgid "エクスポートするルーブリックにチェックを入れてください。"
+msgstr "Check off the rubric which you need to export."
+
+#: tecfolio/common/rubric.tpl:212
+msgid "同時に複数ルーブリックのエクスポートはできません。"
+msgstr "More than one rubric can't be exported simultaneously."
+
+#: tecfolio/common/rubric.tpl:226 tecfolio/common/rubric.tpl:241
+#: tecfolio/common/rubric.tpl:284 tecfolio/common/rubric.tpl:297
+msgid "ルーブリックのコピー"
+msgstr "Copying rubrics to other theme"
+
+#: tecfolio/common/rubric.tpl:229
+msgid "コピーするルーブリックにチェックを入れてください。"
+msgstr "Check off the rubric which you need to duplicate."
+
+#: tecfolio/common/rubric.tpl:244
+msgid "以下のルーブリックをコピーします。"
+msgstr "The following rubric will be copied."
+
+#: tecfolio/common/rubric.tpl:279
+msgid "ルーブリックをコピーしました"
+msgstr "The rubric has been copied."
+
+#: tecfolio/common/rubric.tpl:300
+msgid "コピー先に同一のルーブリックが存在します。"
+msgstr "Identical rubric exists at destination."
+
+#: tecfolio/common/rubric.tpl:633
+msgid "ルーブリック「%1」はエクスポートが許可されていません"
+msgstr "Exporting the rubric \"%1\" is not permitted."
+
+#: tecfolio/common/rubric.tpl:670
+msgid "ルーブリック「%1」をインポートしました"
+msgstr "Rubric \"%1\" has been imported."
+
+#: tecfolio/common/profile.tpl:5
+msgid "アップロード上限を超えています(ファイルサイズ：%1)"
+msgstr "The upper limit is exceeded(to %1 MB)"
+
+#: tecfolio/common/profile.tpl:6
+msgid "画像ファイルを選択してください"
+msgstr "Select a picture"
+
+#: tecfolio/common/profile.tpl:31
+msgid "基本設定"
+msgstr "Basic Settings"
+
+#: tecfolio/common/profile.tpl:33
+msgid "経験"
+msgstr "Experiences"
+
+#: tecfolio/common/profile.tpl:77
+msgid "画像"
+msgstr "Picture"
+
+#: tecfolio/common/profile.tpl:88
+msgid "参照"
+msgstr "Open"
+
+#: tecfolio/common/profile.tpl:89
+msgid "会社画像"
+msgstr "Picture of a company"
+
+#: tecfolio/common/profile.tpl:135
+msgid "メンターとして登録する"
+msgstr "I apply for a mentor."
+
+#: tecfolio/common/profile.tpl:142
+msgid "基本設定で入力された情報はメンターに開示されます"
+msgstr "The contents of basic setting carries to mentor."
+
+#: tecfolio/common/profile.tpl:143 tecfolio/common/profile.tpl:215
+#: tecfolio/common/profile.tpl:251
+msgid "保存"
+msgstr "Save"
+
+#: tecfolio/common/profile.tpl:154
+msgid "趣味"
+msgstr "Interests"
+
+#: tecfolio/common/profile.tpl:158
+msgid "特技"
+msgstr "Special skills"
+
+#: tecfolio/common/profile.tpl:162
+msgid "好きなもの"
+msgstr "Favorite things"
+
+#: tecfolio/common/profile.tpl:166
+msgid "苦手なもの"
+msgstr "Something you don't like"
+
+#: tecfolio/common/profile.tpl:170
+msgid "性格"
+msgstr "Personality"
+
+#: tecfolio/common/profile.tpl:174
+msgid "長所"
+msgstr "Strength"
+
+#: tecfolio/common/profile.tpl:178
+msgid "短所"
+msgstr "Weakness"
+
+#: tecfolio/common/profile.tpl:188
+msgid "資格 1"
+msgstr "Qualification 1"
+
+#: tecfolio/common/profile.tpl:192
+msgid "資格 2"
+msgstr "Qualification 2"
+
+#: tecfolio/common/profile.tpl:196
+msgid "資格 3"
+msgstr "Qualification 3"
+
+#: tecfolio/common/profile.tpl:200
+msgid "資格 4"
+msgstr "Qualification 4"
+
+#: tecfolio/common/profile.tpl:204
+msgid "資格 5"
+msgstr "Qualification 5"
+
+#: tecfolio/common/profile.tpl:208
+msgid "自己PR"
+msgstr "Self introduction"
+
+#: tecfolio/common/profile.tpl:226
+msgid "楽しかった思い出(400字程度)"
+msgstr "Good memory(about 400 words)"
+
+#: tecfolio/common/profile.tpl:230
+msgid "がんばったこと(400字程度)"
+msgstr "A result of effort(about 400 words)"
+
+#: tecfolio/common/profile.tpl:240
+msgid "うまくいった経験(400字程度)"
+msgstr "Success story(about 400 words)"
+
+#: tecfolio/common/profile.tpl:244
+msgid "失敗した経験/対処(400字程度)"
+msgstr "Your failure and action(about 400 words)"
+
+#: tecfolio/common/profile.tpl:261
+msgid "個人設定情報の更新"
+msgstr "Updating the Personal Settings"
+
+#: tecfolio/common/profile.tpl:264
+msgid "個人設定情報を更新します。よろしいですか？"
+msgstr "The personal setting will be updated. Are you sure?"
+
+#: tecfolio/common/profile.tpl:269
+msgid "更新する"
+msgstr "Updating"
+
+#: tecfolio/common/profile.tpl:273
+msgid "個人設定情報を更新しました。"
+msgstr "The personal setting has been updated."
+
+#: tecfolio/professor/setting.tpl:30 tecfolio/professor/setting.tpl:185
+msgid "所属ユーザー設定"
+msgstr "Member configuration"
+
+#: tecfolio/professor/setting.tpl:37
+msgid "選択可能な授業科目"
+msgstr "The course which can be registered"
+
+#: tecfolio/professor/setting.tpl:59
+msgid "登録済み/選択された授業科目"
+msgstr "The course which can be registered and selected"
+
+#: tecfolio/professor/setting.tpl:78 tecfolio/professor/setting.tpl:131
+msgid "登録"
+msgstr "Submit"
+
+#: tecfolio/professor/setting.tpl:86
+msgid "1. 授業科目を選択"
+msgstr "1. Choose a course"
+
+#: tecfolio/professor/setting.tpl:100
+msgid "2. 登録/除外するユーザーを選択"
+msgstr "2. Select an enrollment or exclusion member"
+
+#: tecfolio/professor/setting.tpl:104
+msgid "未登録のユーザー"
+msgstr "Unregistered member"
+
+#: tecfolio/professor/setting.tpl:121
+msgid "登録済みのユーザー"
+msgstr "Registered member"
+
+#: tecfolio/professor/setting.tpl:145
+msgid "選択した授業科目を登録します。よろしいですか？"
+msgstr "Do you register chosen courses?"
+
+#: tecfolio/professor/setting.tpl:158
+msgid "登録する授業科目を選択してください。"
+msgstr "Select a course"
+
+#: tecfolio/professor/setting.tpl:166
+msgid "授業科目を登録しました。"
+msgstr "The course was registered"
+
+#: tecfolio/professor/setting.tpl:175
+msgid "授業科目グループの所属ユーザーを設定します。よろしいですか？"
+msgstr "Do you configure the member who belong to this class?"
+
+#: tecfolio/professor/setting.tpl:188
+msgid "登録/除外するユーザーを選択してください。"
+msgstr "Select an enrollment or exclusion member"
+
+#: tecfolio/professor/setting.tpl:196
+msgid "所属ユーザーを設定しました。"
+msgstr "The member who belongs to this class was configured."
+
+#: seltop/index.tpl:8
+msgid "ログイン"
+msgstr "Login"
+
+#: seltop/index.tpl:25
+msgid "利用者ID"
+msgstr "User ID"
+
+#: seltop/index.tpl:28
+msgid "パスワード"
+msgstr "Password"
+
+#: seltop/index.tpl:36
+msgid "学生"
+msgstr "Student"
+
+#: seltop/index.tpl:36
+msgid "(自分の相談予約をする)"
+msgstr "(Making Your Booking)"
+
+#: seltop/index.tpl:40
+msgid "スタッフ"
+msgstr "Tutor"
+
+#: seltop/index.tpl:40
+msgid "(相談業務を行う)"
+msgstr "(Execution of session)"
+
+#: seltop/index.tpl:44
+msgid "運営管理者"
+msgstr "Administrator"
+
+#: seltop/index.tpl:44
+msgid "(ラボの運営管理を行う)"
+msgstr "(Operation and administration of writing center)"
+
+#: seltop/index.tpl:48
+msgid "教員"
+msgstr "Faculty"
+
+#: seltop/index.tpl:48
+msgid "(授業管理を行う)"
+msgstr "(Course administration)"
+
+#: seltop/index.tpl:51
+msgid "ログインをキャンセル"
+msgstr "Cancel"
+
+#: common/foot_v2.php:4
+msgid "管理者に連絡"
+msgstr "Contact admin"
+
+#: common/foot_v2.php:9
+msgid "TECsystemに関するお問い合わせ"
+msgstr "Contact us about TEC-system"
+
+#: common/foot_v2.php:10
+msgid "こちらにご連絡ください"
+msgstr "Please contact us"
+
+#: common/foot_v2.php:11
+msgid "お問い合わせの概要を入力してください"
+msgstr "Input a summary of inquiry."
+
+#: common/foot_v2.php:11
+msgid "以下にお問い合わせ内容を入力してください"
+msgstr "Input an inquiry below."
+
+#: common/foot_v2.php:12
+msgid "学籍番号と氏名、お問い合わせ内容の概要をメールのタイトルに記入してください。"
+msgstr "Include your student ID and an inquiry in an email subject."
+
+#: common/foot_v2.php:14
+msgid "閉じる"
+msgstr "Close"
+
+#: labo/index.tpl:5
+msgid "トップページ"
+msgstr "Return to homepage"
+
+#: labo/index.tpl:6
+msgid "新規予約"
+msgstr "New Booking"
+
+#: labo/index.tpl:7
+msgid "予約詳細・変更"
+msgstr "Details of Your Booking / Change Your Booking"
+
+#: labo/index.tpl:8
+msgid "履歴詳細"
+msgstr "Details of your history"
+
+#: labo/index.tpl:9
+msgid "お知らせ詳細"
+msgstr "Details of announcement"
+
+#: labo/index.tpl:32
+msgid "本日は%1"
+msgstr "%1"
+
+#: labo/index.tpl:272
+msgid "TECsystem"
+msgstr "TEC-system"
+
+#: labo/index.tpl:282
+msgid "ヘルプ"
+msgstr "Help"
+
+#: labo/index.tpl:291
+msgid "TECfolio"
+msgstr "TEC-folio"
+
+#: labo/index.tpl:346 labo/index.tpl:404
+msgid "%1 %2-%3 に相談予約"
+msgstr "%1 has made a booking on %2-%3."
+
+#: labo/index.tpl:355 labo/index.tpl:413
+msgid "%1さんが %2 の相談にコメント"
+msgstr "%1 makes the comment in a history of %2's session."
+
+#: labo/index.tpl:421
+msgid "さらに表示"
+msgstr "More..."
+
+#: labo/index.tpl:430
+msgid "管理者からのお知らせ"
+msgstr "Announcements"
+
+#: labo/index.tpl:448
+msgid "時間割"
+msgstr "Timetable"
+
+msgid "スケジュール"
+msgstr "Schedule"
+
+#: labo/index.tpl:449
+msgid "ラボ予約"
+msgstr "Booking"
+
+#: labo/index.tpl:450
+msgid "ラボイベント"
+msgstr "Events"
+
+#: labo/index.tpl:479 labo/index.tpl:546 labo/index.tpl:614
+msgid "提出日"
+msgstr "Assignment Deadline"
+
+#: labo/index.tpl:489 labo/index.tpl:556 labo/index.tpl:624
+msgid "終日"
+msgstr "All day"
+
+#: labo/menu.tpl:32
+msgid "予約"
+msgstr "Booking"
+
+#: labo/menu.tpl:33
+msgid "履歴"
+msgstr "History"
+
+#: labo/menu.tpl:34
+msgid "お知らせ"
+msgstr "Announcements"
+
+#: labo/reserve.tpl:5
+msgid "既に自分の予約が入っています"
+msgstr "Your booking has been made already."
+
+#: labo/reserve.tpl:6
+msgid "既に同じ内容の予約が入っています。ページを更新してください。"
+msgstr "An identical booking has already been booked. Reload the page."
+
+#: labo/reserve.tpl:7
+msgid "指定された予約枠に空きが無くなりました。文書の種類/相談場所/日時を再度選択してください。"
+msgstr "There is no vacancies in the booking schedule. Please select a document type / location / date and time again."
+
+#: labo/reserve.tpl:8
+msgid "予約可能時間外です"
+msgstr "You can't make a booking for overtime"
+
+#: labo/reserve.tpl:9
+msgid "予約の枠がありません"
+msgstr "Fully booked"
+
+#: labo/reserve.tpl:10
+msgid "★★★★★　ほぼ完成した"
+msgstr "★★★★★ I finished writing mostly"
+
+#: labo/reserve.tpl:11
+msgid "★★★★　　ひと通り書いた"
+msgstr "★★★★ It was written briefly"
+
+#: labo/reserve.tpl:12
+msgid "★★★　　　半分くらい書いた"
+msgstr "★★★ Half was written"
+
+#: labo/reserve.tpl:13
+msgid "★★　　　　ちょっと書いた"
+msgstr "★★ It was written only a little"
+
+#: labo/reserve.tpl:14
+msgid "★　　　　　まだ書いていない"
+msgstr "★ Nothing has been written yet"
+
+#: labo/reserve.tpl:84 labo/reserve.tpl:267
+msgid "例）レポートの書き方がわからないので、基本的なことを教えてほしい。"
+msgstr "I would like help with MLA formatting. "
+
+#: labo/reserve.tpl:136 labo/reserve.tpl:154 labo/reserve.tpl:178
+#: labo/reserve.tpl:219 labo/reserve.tpl:243
+msgid "▼ 選んでください"
+msgstr "▼ Select"
+
+#: labo/reserve.tpl:139 labo/reserve.tpl:150
+msgid "文書の種類"
+msgstr "Document type"
+
+#: labo/reserve.tpl:140 labo/reserve.tpl:165
+msgid "相談場所"
+msgstr "Session Location"
+
+#: labo/reserve.tpl:141 labo/reserve.tpl:197
+msgid "相談日時"
+msgstr "Date and Time"
+
+#: labo/reserve.tpl:147
+msgid "文書の種類/相談場所/日時を選択"
+msgstr "Select a document type / location / date and time"
+
+#: labo/reserve.tpl:205
+msgid "予約可能時間外"
+msgstr "The deadline for making an appointment has passed."
+
+#: labo/reserve.tpl:206
+msgid "予約済み"
+msgstr "Your appointments"
+
+#: labo/reserve.tpl:207
+msgid "予約枠なし"
+msgstr "Appointments not available"
+
+#: labo/reserve.tpl:239
+msgid "進行状況"
+msgstr "Progress"
+
+#: labo/reserve.tpl:254
+msgid "添付ファイル"
+msgstr "Attachment"
+
+#: labo/reserve.tpl:258
+msgid "ファイルを選択"
+msgstr "Select a file"
+
+#: labo/reserve.tpl:265
+msgid "相談したいこと"
+msgstr "Requests"
+
+#: labo/reserve.tpl:272
+msgid "予約する"
+msgstr "Make a Booking"
+
+#: labo/reserve.tpl:276
+msgid "予約しますか？"
+msgstr "Do you make a booking?"
+
+#: labo/reserve.tpl:283
+msgid "予約完了しました。右の予約一覧で確認できます。"
+msgstr "Your booking has been made. You can check your booking list on the right column."
+
+#: labo/reserve.tpl:289
+msgid "提出日の確認"
+msgstr "Check a deadline"
+
+#: labo/reserve.tpl:290
+msgid "提出日が予約日より過去に設定されています。よろしいですか？"
+msgstr "The deadline has been set before the booking date. Are you sure?"
+
+#: labo/reserve.tpl:302
+msgid "予約一覧"
+msgstr "Booking List"
+
+#: labo/reserve.tpl:307
+msgid "前の10件"
+msgstr "Back 10"
+
+#: labo/reserve.tpl:308
+msgid "次の10件"
+msgstr "Next 10"
+
+#: labo/reserve.tpl:369
+msgid "同じファイルが既に選択されています"
+msgstr "An identical file has been selected already."
+
+#: labo/editreserve.tpl:394
+msgid "予約の取り消し"
+msgstr "Cancel a Booking"
+
+#: labo/editreserve.tpl:395
+msgid "変更の保存"
+msgstr "The change contents are preserved"
+
+#: labo/editreserve.tpl:399
+msgid "以下の情報で予約を変更します"
+msgstr "Your booking is changed as follows."
+
+#: labo/editreserve.tpl:450
+msgid "変更が反映されました。"
+msgstr "Your plan have changed"
+
+#: labo/editreserve.tpl:457
+msgid "この予約を取り消しますか？"
+msgstr "Do you cancel this booking?"
+
+#: labo/editreserve.tpl:507
+msgid "予約を取り消しました。"
+msgstr "You canceled a booking."
+
+#: labo/history.tpl:74
+msgid "履歴がありません"
+msgstr "There is no history."
+
+#: labo/history.tpl:81
+msgid "相談した日時"
+msgstr "The date and time of your consultation"
+
+#: labo/history.tpl:107
+msgid "添付したファイル"
+msgstr "Attached file"
+
+#: labo/history.tpl:132
+msgid "スタッフからのコメント"
+msgstr "Message from staff"
+
+#: labo/history.tpl:154
+msgid "送信後も再編集可能です"
+msgstr "You can reedit your comment after sending"
+
+#: labo/history.tpl:159
+msgid "※提出できましたか？先生に提出したレポートやレジュメなどの原稿をラボにも送ってくださいね。"
+msgstr "Have you submitted the assignment? Please send us the written assignment, such as report, essay, handout."
+
+#: labo/history.tpl:181
+msgid "送信する"
+msgstr "Sent message"
+
+#: labo/history.tpl:190
+msgid "コメントを送信しますか？"
+msgstr "Send this message?"
+
+#: labo/history.tpl:198
+msgid "コメントの送信が完了しました。右の履歴一覧で確認できます。"
+msgstr "Your comment has been sent. You can check the comment list on the right column."
+
+#: labo/history.tpl:212
+msgid "あなたからのコメント"
+msgstr "Message from you"
+
+#: labo/history.tpl:218
+msgid "提出したファイル"
+msgstr "Submitted assignment"
+
+#: labo/history.tpl:253
+msgid "履歴一覧"
+msgstr "History List"
+
+#: labo/information.tpl:30
+msgid "掲示：%1"
+msgstr "Notice: %1"
+
+#: labo/error.tpl:5
+msgid "予約が存在しません。既に削除された可能性があります"
+msgstr "There is no booking. It has already been deleted."
+
+#: staff/index.tpl:6
+msgid "シフトカレンダー"
+msgstr "Appointment Calendar"
+
+#: staff/index.tpl:7
+msgid "予定/指導履歴"
+msgstr "Session History(Tutor's)"
+
+#: staff/index.tpl:8
+msgid "全指導履歴"
+msgstr "Session History(All)"
+
+#: staff/index.tpl:9
+msgid "学期単位のシフト入力"
+msgstr "Tutor's schedule"
+
+#: staff/index.tpl:57 staff/index.tpl:88
+msgid "【予約】%1さん：%2"
+msgstr "【Booking】 %1: %2"
+
+#: staff/index.tpl:63 staff/index.tpl:94
+msgid "【変更】%1さん：%2"
+msgstr "【Changes】 %1: %2"
+
+#: staff/index.tpl:69 staff/index.tpl:100
+msgid "【キャンセル】%1さん：%2"
+msgstr "【Cancel】 %1: %2"
+
+#: staff/index.tpl:75 staff/index.tpl:106
+msgid "【コメント】%1さん：%2"
+msgstr "【Comments】 %1: %2"
+
+#: staff/index.tpl:141 staff/index.tpl:153
+msgid "本日%1の予約"
+msgstr "Today's appointments - %1"
+
+#: staff/index.tpl:153 staff/index.tpl:157
+msgid "全%1件"
+msgstr "All %1 cases"
+
+#: staff/index.tpl:155
+msgid "本日の予約はありません"
+msgstr "There is no appointments today."
+
+#: staff/menu.tpl:35
+msgid "シフト入力"
+msgstr "Tutor's schedule"
+
+#: staff/calendar.tpl:5
+msgid "%1人"
+msgstr "Number of staff: %1"
+
+#: staff/calendar.tpl:6
+msgid "%1の予約 %2件"
+msgstr "%2 Appointments for %1"
+
+#: staff/calendar.tpl:7
+msgid "相談者を指定してください"
+msgstr "Indicate a student"
+
+#: staff/calendar.tpl:8
+msgid "文書の種類を選択してください"
+msgstr "Select a document type."
+
+#: staff/calendar.tpl:9
+msgid "相談場所を選択してください"
+msgstr "Select a session location."
+
+#: staff/calendar.tpl:10
+msgid "既に同じ相談者の予約が登録されています"
+msgstr "The booking is already registered by identical student."
+
+#: staff/calendar.tpl:412
+msgid "シフト詳細"
+msgstr "Detail of your duties"
+
+#: staff/calendar.tpl:418 staff/calendar.tpl:796
+msgid "年月日"
+msgstr "Date"
+
+#: staff/calendar.tpl:420 staff/calendar.tpl:797
+msgid "シフト"
+msgstr "Duty"
+
+#: staff/calendar.tpl:425
+msgid "TA"
+msgstr "Tutor"
+
+#: staff/calendar.tpl:445
+msgid "相談"
+msgstr "Consultation"
+
+#: staff/calendar.tpl:456
+msgid "担当"
+msgstr "Commit"
+
+#: staff/calendar.tpl:457
+msgid "種類"
+msgstr "Type"
+
+#: staff/calendar.tpl:525
+msgid "駆け込み予約"
+msgstr "Without a Booking "
+
+#: staff/calendar.tpl:673
+msgid "ユーザーが見つかりません"
+msgstr "User was not found."
+
+#: staff/calendar.tpl:751
+msgid "利用施設："
+msgstr "Place: "
+
+#: staff/calendar.tpl:776
+msgid "：予約あり"
+msgstr ": With Booking"
+
+#: staff/calendar.tpl:777
+msgid "：担当シフト"
+msgstr ": Your tutoring slots"
+
+#: staff/calendar.tpl:791
+msgid "駆け込み予約・相談者の追加"
+msgstr "Add a last-minute application  "
+
+#: staff/calendar.tpl:799
+msgid "相談者"
+msgstr "Student"
+
+#: staff/calendar.tpl:801
+msgid "例）文14-1234"
+msgstr "ex.) 文14-1234"
+
+#: staff/calendar.tpl:802
+msgid "こちらに記入"
+msgstr "Fill in the form"
+
+#: staff/calendar.tpl:802
+msgid "学籍番号で検索"
+msgstr "Search by the student ID"
+
+#: staff/calendar.tpl:888
+msgid "相談内容"
+msgstr "Contents of consultation"
+
+#: staff/advice.tpl:5
+msgid "%1さんの相談一覧"
+msgstr "Consultation lists of  Mr. / Ms. %1"
+
+#: staff/advice.tpl:6
+msgid "予定"
+msgstr "Schedule"
+
+#: staff/advice.tpl:8
+msgid "%1の相談一覧"
+msgstr "Session history(%1)."
+
+#: staff/advice.tpl:9
+msgid "%1さんの担当一覧"
+msgstr "List of charge(%1)"
+
+#: staff/advice.tpl:10
+msgid "すべての相談一覧"
+msgstr "Session history(All)"
+
+#: staff/advice.tpl:11
+msgid "未確定"
+msgstr "Pending"
+
+#: staff/advice.tpl:12
+msgid "担当者情報が更新されました。ページの更新を行ってください"
+msgstr "Tutor's information has been updated. Please reload a page."
+
+#: staff/advice.tpl:58
+msgid "相談予定"
+msgstr "Consultation schedule"
+
+#: staff/advice.tpl:63
+msgid "学籍番号・氏名"
+msgstr "Student ID / Name"
+
+#: staff/advice.tpl:64
+msgid "%1さんの相談一覧を表示"
+msgstr "Watch the session history of %1."
+
+#: staff/advice.tpl:91
+msgid "%1での相談一覧を表示"
+msgstr "Watch the session history on %1"
+
+#: staff/advice.tpl:119 staff/advice.tpl:171 staff/advice.tpl:248
+#: staff/advice.tpl:269 staff/advice.tpl:285 staff/advice.tpl:306
+msgid "指導内容"
+msgstr "Teaching contents"
+
+#: staff/advice.tpl:122 staff/advice.tpl:251 staff/advice.tpl:288
+msgid "担当スタッフ"
+msgstr "Person in charge"
+
+msgid "担当者"
+msgstr "Person in charge"
+
+#: staff/advice.tpl:128
+msgid "未決定"
+msgstr "Pendency"
+
+#: staff/advice.tpl:131 staff/advice.tpl:145
+msgid "※担当スタッフの設定は確認表示なしで保存されます"
+msgstr "※Responsible tutor setting will be saved without confirmation."
+
+#: staff/advice.tpl:133 staff/advice.tpl:471
+msgid "担当する"
+msgstr "Commit"
+
+#: staff/advice.tpl:147 staff/advice.tpl:467
+msgid "担当解除"
+msgstr "Removal of assignment"
+
+#: staff/advice.tpl:159
+msgid "ドタキャンフラグ"
+msgstr "Cancelled flag at last minute"
+
+#: staff/advice.tpl:175 staff/advice.tpl:273 staff/advice.tpl:310
+msgid "所感"
+msgstr "Impression"
+
+#: staff/advice.tpl:179 staff/advice.tpl:277 staff/advice.tpl:314
+msgid "備考"
+msgstr "Note"
+
+#: staff/advice.tpl:186
+msgid "一時保存する"
+msgstr "Temporarily saves"
+
+#: staff/advice.tpl:187
+msgid "確定する"
+msgstr "Set"
+
+#: staff/advice.tpl:191
+msgid "指導内容を確定します。よろしいですか？"
+msgstr "Would you fix your teaching contents?"
+
+#: staff/advice.tpl:198
+msgid "指導内容を保存しました。次回はこの続きからの入力が可能になります。"
+msgstr "You preserved teaching contents. You can reedit from this continuation next time."
+
+#: staff/advice.tpl:203
+msgid "指導内容を確定しました。右の一覧で指導履歴として確認できます。"
+msgstr "You fixed your teaching contents. You can check the session history on the right column."
+
+#: staff/advice.tpl:217 staff/advice.tpl:330
+msgid "相談者へのコメント"
+msgstr "Comment to student"
+
+#: staff/advice.tpl:226
+msgid "コメントを送信します。よろしいですか？"
+msgstr "Send this message?"
+
+#: staff/advice.tpl:233
+msgid "コメントを送信しました。右の一覧で指導履歴として確認できます。"
+msgstr "Your message has been sent. You can check the message list on the right column."
+
+#: staff/advice.tpl:260 staff/advice.tpl:297
+msgid "ドタキャン"
+msgstr "Cancelled at the last minute"
+
+#: staff/advice.tpl:261 staff/advice.tpl:298
+msgid "時間通りに来ませんでした"
+msgstr "Student has not com on time."
+
+#: staff/advice.tpl:339
+msgid "送信しますか？"
+msgstr "Do you submit?"
+
+#: staff/advice.tpl:346
+msgid "送信完了しました。右の一覧で指導履歴を確認できます。"
+msgstr "History of a session has been submitted. You can check the session history list on the right column."
+
+#: staff/advice.tpl:363 staff/advice.tpl:378
+msgid "%1さんからのコメント"
+msgstr "Comment by %1"
+
+#: staff/advice.tpl:374
+msgid "%1さんからのコメントはまだありません"
+msgstr "No comment by %1"
+
+#: staff/advice.tpl:410
+msgid "右の一覧から予定/指導履歴を選んでください"
+msgstr "Select an item for booking or session history on the right column."
+
+#: staff/advice.tpl:413
+msgid "予定/指導履歴が存在しません"
+msgstr "There is no schedule or session history."
+
+#: common/allhistory.tpl:187 common/allhistory.tpl:288
+msgid "担当教員"
+msgstr "Teacher in charge"
+
+#: common/allhistory.tpl:200 common/allhistory.tpl:208
+#: common/allhistory.tpl:289
+msgid "提出ファイル"
+msgstr "Submitted assignment"
+
+#: common/allhistory.tpl:245 common/allhistory.tpl:331
+msgid "なし"
+msgstr "None"
+
+#: common/allhistory.tpl:397
+msgid "場所"
+msgstr "Location"
+
+#: common/allhistory.tpl:405
+msgid "学期"
+msgstr "Academic Term"
+
+#: common/allhistory.tpl:408
+msgid "%1年度 %2"
+msgstr "%2, %1"
+
+#: common/allhistory.tpl:425
+msgid "閲覧履歴"
+msgstr "Browsing History"
+
+#: common/allhistory.tpl:504
+msgid "印刷する"
+msgstr "Print"
+
+#: common/allhistory.tpl:516 common/allhistory.tpl:521
+msgid "▲相談内容"
+msgstr "▲ Contents of consultation"
+
+#: common/allhistory.tpl:526
+msgid "▲指導内容"
+msgstr "▲ Teaching contents"
+
+#: common/allhistory.tpl:531
+msgid "▲所感"
+msgstr "▲ Impression"
+
+#: common/allhistory.tpl:536
+msgid "▲備考"
+msgstr "▲ Note"
+
+#: common/allhistory.tpl:541
+msgid "▲コメント"
+msgstr "▲ Comment"
+
+#: common/allhistory.tpl:609
+msgid "全シフト"
+msgstr "All duties"
+
+#: common/allhistory.tpl:621
+msgid "全種類"
+msgstr "All"
+
+#: common/allhistory.tpl:631
+msgid "ID"
+msgstr "ID"
+
+#: common/allhistory.tpl:631
+msgid "学生氏名"
+msgstr "Student's full name"
+
+#: common/allhistory.tpl:631
+msgid "科目名"
+msgstr "Course"
+
+#: staff/shift.tpl:50
+msgid "日曜日"
+msgstr "Sunday"
+
+#: staff/shift.tpl:50
+msgid "月曜日"
+msgstr "Monday"
+
+#: staff/shift.tpl:50
+msgid "火曜日"
+msgstr "Tuesday"
+
+#: staff/shift.tpl:50
+msgid "水曜日"
+msgstr "Wednesday"
+
+#: staff/shift.tpl:50
+msgid "木曜日"
+msgstr "Thursday"
+
+#: staff/shift.tpl:50
+msgid "金曜日"
+msgstr "Friday"
+
+#: staff/shift.tpl:50
+msgid "土曜日"
+msgstr "Saturday"
+
+#: staff/shift.tpl:225
+msgid "シフトの引き継ぎ"
+msgstr "Transferring activities"
+
+#: staff/shift.tpl:228
+msgid "前学期のシフトを引き継ぎますか？"
+msgstr "Do you transfer the activities from previous academic term?"
+
+#: staff/shift.tpl:245
+msgid "※セルをクリックして選択してください。"
+msgstr "※Select a Cell"
+
+#: staff/shift.tpl:246
+msgid "：自分の担当シフト"
+msgstr ": Own duty"
+
+#: staff/shift.tpl:252
+msgid "シフトを担当する"
+msgstr "To take charge of this duty slot."
+
+#: staff/shift.tpl:254
+msgid "このシフトを担当しますか？"
+msgstr "Are you sure you want to charge this duty?"
+
+#: staff/shift.tpl:266
+msgid "シフトを削除する"
+msgstr "Remove this duty slot."
+
+#: staff/shift.tpl:268
+msgid "このシフトを削除しますか？"
+msgstr "Are you sure you want to delete this duty slot?"
+
+#: staff/shift.tpl:298
+msgid "シフト入力許可期間の対象外です"
+msgstr "Please set the duties during a given period."
+
+#: staff/shift.tpl:299
+msgid "%1 のシフト入力許可期間は %2 ～ %3 です。"
+msgstr "The given period to set the duties of %1 is from %2 to %3."
+
+#: staff/shift.tpl:304
+msgid "シフト時間一覧"
+msgstr "List of  Duty Slot"
+
+#: staff/shift.tpl:308
+msgid "曜日"
+msgstr "Day"
+
+#: staff/shift.tpl:309
+msgid "シフト時間"
+msgstr "Duty Slot"
+
+#: admin/index.tpl:6
+msgid "予約状況"
+msgstr "Reservations"
+
+#: admin/index.tpl:9
+msgid "閉室日設定"
+msgstr "Closure Settings"
+
+#: admin/index.tpl:11
+msgid "新規お知らせ登録"
+msgstr "Adding an Announcement"
+
+#: admin/index.tpl:13
+msgid "稼働率"
+msgstr "Usage (session / tutor ratio)"
+
+#: admin/index.tpl:14
+msgid "予約形態別利用状況"
+msgstr "Usage (session / type ratio)"
+
+#: admin/index.tpl:15
+msgid "学部・学年別利用状況"
+msgstr "Usage (session / student department and year ratio)"
+
+#: admin/index.tpl:16
+msgid "学期/シフト入力許可設定"
+msgstr "Shift Term and Entry Period Settings"
+
+#: admin/index.tpl:17
+msgid "文書種類設定"
+msgstr "Document Type Settings"
+
+#: admin/index.tpl:18
+msgid "相談場所設定"
+msgstr "Location Settings"
+
+#: admin/index.tpl:19
+msgid "利用規約設定"
+msgstr "User Policy Settings"
+
+#: admin/index.tpl:20
+msgid "ユーザー権限設定"
+msgstr "Administrator Settings"
+
+#: admin/index.tpl:267
+msgid "お知らせなし"
+msgstr "No article"
+
+#: admin/index.tpl:275
+msgid "イベント"
+msgstr "Events"
+
+#: admin/menu.tpl:36
+msgid "お知らせ管理"
+msgstr "Information Management"
+
+#: admin/menu.tpl:37
+msgid "利用統計"
+msgstr "Statistics"
+
+#: admin/reservestatus.tpl:6 admin/reservestatus.tpl:540
+msgid "スタッフを選択してください"
+msgstr "Choose a Tutor"
+
+#: admin/reservestatus.tpl:209
+msgid "予約詳細"
+msgstr "Booking Details"
+
+#: admin/reservestatus.tpl:286
+msgid "学生の連絡先"
+msgstr "Student Contact Information"
+
+#: admin/reservestatus.tpl:339
+msgid "担当可能なスタッフがいません"
+msgstr "There are no responsible tutor."
+
+#: admin/reservestatus.tpl:509
+msgid "相談場所："
+msgstr "Location: "
+
+#: admin/reservestatus.tpl:531
+msgid "予約学生を選択してください"
+msgstr "Select a student."
+
+#: admin/reservestatus.tpl:547
+msgid "年月日："
+msgstr "Date: "
+
+#: admin/reservestatus.tpl:552
+msgid "シフト："
+msgstr "Duty: "
+
+#: admin/reservestatus.tpl:557
+msgid "学籍番号："
+msgstr "Student ID: "
+
+#: admin/reservestatus.tpl:562
+msgid "氏名："
+msgstr "Full Name: "
+
+#: admin/reservestatus.tpl:567
+msgid "スタッフ："
+msgstr "Tutor: "
+
+#: admin/reservestatus.tpl:576
+msgid "決定"
+msgstr "Enter"
+
+#: admin/workmanagement.tpl:5
+msgid "%1件"
+msgstr "%1 cases"
+
+#: admin/workmanagement.tpl:432 admin/workmanagement.tpl:499
+msgid "予約数"
+msgstr "Booking"
+
+#: admin/workmanagement.tpl:432 admin/workmanagement.tpl:499
+#: admin/workmanagement.tpl:546
+msgid "受入数"
+msgstr "Acceptance"
+
+#: admin/workmanagement.tpl:432 admin/workmanagement.tpl:499
+msgid "(スタッフ数)"
+msgstr "(Tutor)"
+
+#: admin/workmanagement.tpl:488 admin/workmanagement.tpl:496
+msgid "受入数設定"
+msgstr "Acceptance Settings"
+
+#: admin/workmanagement.tpl:522
+msgid "設定する"
+msgstr "Settings"
+
+#: admin/workmanagement.tpl:527
+msgid "受入数設定が完了しました。"
+msgstr "The number of acceptance has been set."
+
+#: admin/workmanagement.tpl:593
+msgid "このシフトは削除できません"
+msgstr "You can't remove this duty slot."
+
+#: admin/workmanagement.tpl:594
+msgid "スタッフ数が予約数を下回る操作はできません。"
+msgstr "You can't do operation by which the number of tutor falls below the number of booking."
+
+#: admin/workmanagement.tpl:615
+msgid "スタッフ一覧"
+msgstr "Tutor lists"
+
+#: admin/workmanagement.tpl:620
+msgid "当日スタッフ：%1名 (全：%2名)"
+msgstr "Today's staff: %1 (All: %2)"
+
+#: admin/shiftmanagement.tpl:428
+msgid "受入数設定(差分)"
+msgstr "Acceptance Settings(Differences)"
+
+#: admin/closuredate.tpl:344
+msgid "表示"
+msgstr "View"
+
+#: admin/closuredate.tpl:353
+msgid "更新しますか？"
+msgstr "Are you sure you want to update it?"
+
+#: admin/closuredate.tpl:361
+msgid "更新が完了しました。"
+msgstr "Updated."
+
+#: admin/editinformation.tpl:5
+msgid "お知らせタイトルを入力してください"
+msgstr "Input a subject for the message."
+
+#: admin/editinformation.tpl:6
+msgid "お知らせ本文を入力してください"
+msgstr "Input the body of the announcement."
+
+#: admin/editinformation.tpl:7
+msgid "カレンダータイトルを入力してください"
+msgstr "Input the title of calendar."
+
+#: admin/editinformation.tpl:8
+msgid "日付を選択してください"
+msgstr "Select the date"
+
+#: admin/editinformation.tpl:9
+msgid "削除対象を指定してください"
+msgstr "Designate the removing  subject."
+
+#: admin/editinformation.tpl:81
+msgid "本文"
+msgstr "Message"
+
+#: admin/editinformation.tpl:90
+msgid "カレンダー"
+msgstr "Calendar"
+
+#: admin/editinformation.tpl:91
+msgid "掲載する"
+msgstr "Publish"
+
+#: admin/editinformation.tpl:94
+msgid "(14文字程度)"
+msgstr "(around 14 characters)"
+
+#: admin/editinformation.tpl:100
+msgid "開始日"
+msgstr "Start"
+
+#: admin/editinformation.tpl:109 admin/editinformation.tpl:128
+msgid "時"
+msgstr "Hours"
+
+#: admin/editinformation.tpl:115 admin/editinformation.tpl:133
+msgid "分"
+msgstr "Min"
+
+#: admin/editinformation.tpl:119
+msgid "終了日"
+msgstr "End"
+
+#: admin/editinformation.tpl:141
+msgid "お知らせを登録しますか？"
+msgstr "Do you submit an article?"
+
+#: admin/editinformation.tpl:148
+msgid "お知らせが登録されました。右のお知らせ一覧で確認できます。"
+msgstr "The article has been submitted. You can check it in the right column."
+
+#: admin/editinformation.tpl:158
+msgid "お知らせ一覧"
+msgstr "List of Articles"
+
+#: admin/information.tpl:119
+msgid "削除"
+msgstr "Delete"
+
+#: admin/information.tpl:128
+msgid "お知らせ編集"
+msgstr "Edit an Article"
+
+#: admin/information.tpl:201
+msgid "お知らせが更新されました。右のお知らせ一覧で確認できます。"
+msgstr "Article was updated. You can confirm"
+
+#: admin/information.tpl:208
+msgid "このお知らせを削除しますか？"
+msgstr "Are you sure you want to delete this article?"
+
+#: admin/information.tpl:215
+msgid "お知らせを削除しました。"
+msgstr "An article was deleted"
+
+#: admin/statistics_sidebar.tpl:11
+msgid "(稼働件数/スタッフ)"
+msgstr "(sessions / tutor)"
+
+#: admin/statistics_sidebar.tpl:12
+msgid "(予約形態別相談件数/相談件数)"
+msgstr "(booking / Session)"
+
+#: admin/statistics_sidebar.tpl:14
+msgid "利用データ<br>ダウンロード"
+msgstr "Downloads"
+
+#: admin/statistics_sidebar.tpl:19
+msgid "利用データのダウンロード"
+msgstr "Downloading the log data"
+
+#: admin/statistics_sidebar.tpl:22
+msgid "以下の利用規約をよく読んでダウンロードしてください"
+msgstr "Please read the following terms and conditions carefully before downloading."
+
+#: admin/statistics_sidebar.tpl:28
+msgid "同意してダウンロード"
+msgstr "Agree & Download"
+
+#: admin/statistics_sidebar.tpl:29
+msgid "同意しない"
+msgstr "Disagree"
+
+#: admin/utilization.tpl:90
+msgid "曜日平均"
+msgstr "Average of Weekdays"
+
+#: admin/utilization.tpl:356
+msgid "全体"
+msgstr "All"
+
+#: admin/utilization.tpl:375
+msgid "時間帯平均"
+msgstr "Time average"
+
+#: admin/byreserveform.tpl:361
+msgid "事前予約件数"
+msgstr "List of reservations"
+
+#: admin/byreserveform.tpl:362
+msgid "駆け込み件数"
+msgstr "List of no reservations"
+
+#: admin/byfacultyandclass.tpl:271
+msgid "学部・入学年度別(相談件数, 男女件数)"
+msgstr "Faculty vs. academic year(total, male/female)"
+
+#: admin/byfacultyandclass.tpl:291
+msgid "場所全体"
+msgstr "All locations"
+
+#: admin/byfacultyandclass.tpl:299
+msgid "種別全体"
+msgstr "All types"
+
+#: admin/byfacultyandclass.tpl:311 admin/byfacultyandclass.tpl:312
+#: admin/byfacultyandclass.tpl:313 admin/byfacultyandclass.tpl:314
+msgid "%1年入学"
+msgstr "Entered in %1"
+
+#: admin/byfacultyandclass.tpl:315
+msgid "過年度生"
+msgstr "Repeater"
+
+#: admin/byfacultyandclass.tpl:316
+msgid "計"
+msgstr "Total"
+
+#: admin/byfacultyandclass.tpl:327
+msgid "相談件数 (男性, 女性)"
+msgstr "Total (male, female)"
+
+#: admin/termandshift.tpl:5
+msgid "学期名称を入力してください"
+msgstr "Input the academic term title."
+
+#: admin/termandshift.tpl:6
+msgid "学期期間を入力してください"
+msgstr "Input the academic term period."
+
+#: admin/termandshift.tpl:7
+msgid "シフト入力許可期間を入力してください"
+msgstr "Input the duty entry period."
+
+#: admin/termandshift.tpl:274
+msgid "年度選択："
+msgstr "Academic Year Selection: "
+
+#: admin/termandshift.tpl:285
+msgid "年度追加"
+msgstr "Academic Year Addition: "
+
+#: admin/termandshift.tpl:297
+msgid "名称"
+msgstr "Name"
+
+#: admin/termandshift.tpl:298
+msgid "学期期間"
+msgstr "Period"
+
+#: admin/termandshift.tpl:299
+msgid "シフト入力許可期間"
+msgstr "Shift Entry Period"
+
+#: admin/termandshift.tpl:355
+msgid "追加が完了しました。"
+msgstr "added"
+
+#: admin/dockind.tpl:5
+msgid "文書種類の名称を入力してください"
+msgstr "Input a document type."
+
+#: admin/dockind.tpl:75
+msgid "非表示"
+msgstr "Hide"
+
+#: admin/dockind.tpl:77
+msgid "表示順序"
+msgstr "Order"
+
+#: admin/place.tpl:5
+msgid "相談場所の名称を入力してください"
+msgstr "Input a session location."
+
+#: admin/agreement.tpl:5
+msgid "利用規約を入力してください"
+msgstr "Input user policy."
+
+#: admin/user.tpl:5
+msgid "権限は最低一つのチェックが必要です"
+msgstr "At least one check for setting authority  is needed."
+
+#: admin/user.tpl:141
+msgid "右のメニューから検索してください"
+msgstr "Please search on the right column."
+
+#: admin/user.tpl:146 admin/user.tpl:165 admin/user.tpl:229
+msgid "学籍番号/職員番号"
+msgstr "Student, Faculty and Staff ID"
+
+#: admin/user.tpl:147 admin/user.tpl:169 admin/user.tpl:233
+msgid "名前"
+msgstr "Name"
+
+#: admin/user.tpl:148 admin/user.tpl:180 admin/user.tpl:219
+msgid "権限"
+msgstr "User Type"
+
+#: admin/user.tpl:149 admin/user.tpl:173
+msgid "学部・学科/所属"
+msgstr "Faculty, Department or Affiliation"
+
+#: admin/user.tpl:161
+msgid "権限設定"
+msgstr "User Privileges"
+
+#: admin/user.tpl:217
+msgid "ユーザー検索"
+msgstr "Find Users"
+
+#: admin/user.tpl:237
+msgid "学部/所属"
+msgstr "Faculty or Affiliation"
+
+#: admin/user.tpl:250
+msgid "CSV登録"
+msgstr "Uploading a CSV file"
+
+#: admin/user.tpl:462
+msgid "検索条件に一致するユーザーが見つかりませんでした。"
+msgstr "User was not found."
+
+#: tecfolio/common/profile.tpl:133
+msgid "メンターになる"
+msgstr "Mentoring"
+
+#: tecfolio/common/reserve.tpl:136
+msgid "▼ クリック！"
+msgstr "▼ Click！"
+
+# No.1 各トップ画面とヘッダー
+msgid "個別相談予約"
+msgstr "Make an Appointment"
+
+# No.2 学生 - 予約画面
+msgid "授業の課題・レポートの相談は、授業科目を選択してください。"
+msgstr "If you are bringing a research paper, select the applicable course."
+
+# No.3
+msgid "文書の種類　予約の重複"
+msgstr "You can only make one appointment in a certain category at a time."
+
+# No.4
+msgid "%1の相談が終了するまで、%1で予約はできません"
+msgstr " "
+
+# No.5
+msgid "予約可能時間を過ぎています。文書の種類/相談場所/日時を再度選択してください。"
+msgstr "The deadline for making an appointment has passed. Please select another date and time."
+
+# No.6
+msgid "予約の変更が可能な時間を過ぎています。"
+msgstr "The deadline for changing your appointment has passed."
+
+# No.7
+msgid "予約のキャンセルが可能な時間を過ぎています。"
+msgstr "The deadline for cancelling has passed."
+
+# No.8 スタッフ - シフトカレンダー
+msgid "相談種別："
+msgstr "Document Types: "
+
+# No.9
+msgid "未"
+msgstr ""
+
+# No.10 管理者 - 予約状況
+msgid "%1の予約状況"
+msgstr "Appointments for %1"
+
+# No.11 管理者 - 勤務/業務管理・学期前シフト管理
+msgid "受入数/受入上限の設定"
+msgstr "Set the availability of sessions"
+
+# No.12
+msgid "一括設定"
+msgstr "Change"
+
+# No.13
+msgid "受入上限"
+msgstr "Maximum"
+
+# No.14
+msgid "受入数/受入上限の設定が完了しました。"
+msgstr "The chage is complete."
+
+# No.15 管理者 - 学期/シフト入力許可設定
+msgid "%1年度のデータを追加しますか？"
+msgstr "Add calendar details for %1?"
+
+# No.16 管理者 - 文書種類設定
+msgid "正式名称"
+msgstr "Document Types"
+
+# No.17
+msgid "短縮名称"
+msgstr "Categories"
+
+# No.18 管理者 - 学部・学年別利用状況
+msgid "学部・入学年度別(相談件数)"
+msgstr "by dept. and the year they entered"
+
+# No.19
+msgid "相談件数"
+msgstr "Number of the sessions"
+
+# No.20 管理者 - ユーザー権限設定
+msgid "学籍番号/教職員番号"
+msgstr "ID number"
+
+# No.21
+msgid "相談種別を選択してください。"
+msgstr "Select the type of documents"
+
+# No.22
+msgid "利用データの取得期間設定"
+msgstr "Time period selection"
+
+# No.23
+msgid "利用データを取得する期間を設定してください"
+msgstr "Enter the time period"
+
+# No.24 ダウンロードした利用データの見出し
+msgid "相談年月日"
+msgstr "yy/mm/dd"
+
+# No.25
+msgid "相談曜日"
+msgstr "Day"
+
+# No.26
+msgid "相談時刻(シフト)"
+msgstr "Time slot"
+
+# No.27
+msgid "相談者所属"
+msgstr "Student's department"
+
+msgid "相談者所属学部"
+msgstr "Student's department"
+
+# No.28
+msgid "学年"
+msgstr "Year"
+
+# No.29 My Writing Pod - 授業科目
+msgid "参照不可にする"
+msgstr "Accessible only to the teacher"
+
+# No.30
+msgid "参照可にする"
+msgstr "Accessible to all class members"
+
+# No.31
+msgid "選択したコンテンツの公開設定を変更します"
+msgstr "Change the setting"
+
+# No.32
+msgid "担当教員とアップロードした本人のみに公開します"
+msgstr "Accessible to teacher"
+
+# No.33
+msgid "この授業科目の関係者すべてに公開します"
+msgstr "Accessible to class"
+
+# No.34
+msgid "選択したコンテンツを参照不可にしました"
+msgstr "Confirmation - Accessible to teacher"
+
+# No.35
+msgid "選択したコンテンツを参照可にしました"
+msgstr "Confirmation - Accessible to class"
+
+# No.36
+msgid "参照不可にするコンテンツにチェックを入れてください"
+msgstr "Select the file to alter accessibility"
+
+# No.37
+msgid "参照可にするコンテンツにチェックを入れてください"
+msgstr "Select the file to alter accessibility"
+
+# No.38
+msgid "公開設定の変更"
+msgstr "Change the accessibility"
+
+# No.39
+msgid "今後追加されるコンテンツに対する、既定の公開設定を変更します。<br>現在の設定は「参照可」(全てのユーザーに公開)です。<br>設定を参照不可に変更しますか？"
+msgstr "Now your setting is accessible to only the teacher.<br>Do you want future files to be accessible to the entire class?"
+
+# No.40
+msgid "今後追加されるコンテンツに対する、既定の公開設定を変更します。<br>現在の設定は「参照不可」(担当教員と追加した本人のみに公開)です。<br>設定を参照可に変更しますか？"
+msgstr "Now your setting is accessible to the entire class.<br>Do you want future files to be accessible to only the teacher?"
+
+# No.41
+msgid "公開設定を変更しました"
+msgstr "Confirmation"
+
+# 追加
+msgid "公開設定"
+msgstr "Accessibility"
+
+msgid "担当教員とアップロードした本人のみに公開されています"
+msgstr "Accessible only by the teacher and the person who uploaded it"
+
+# 利用統計 - 「同意してダウンロード」の代替
+msgid "同意する"
+msgstr "Agree"
+
+msgid "ダウンロード"
+msgstr "Download"
+
+# 管理者 - 勤務/業務管理
+msgid "合計"
+msgstr "Sum"
+
+# 管理者 - ユーザー権限設定
+msgid "相談種別"
+msgstr "Document Types"
+
+# TECsystem
+msgid "ようこそ、%1さん。ログインするモードを選択してください"
+msgstr "Welcome to TEC-system, %1! Please select your login status."
+
+# Tsuda Writing System
+msgid "ようこそ、%1さん。ログインするモードを選択してください。"
+msgstr "Welcome to Tsuda Writing System, %1! Please select your login status."
+
+msgid "Tsuda Writing Systemに関するお問い合わせ"
+msgstr "Contact us about Tsuda Writing System"
+
+# ダウンロードCSVファイル内
+msgid "登録種別"
+msgstr "Type"
+
+msgid "相談状態"
+msgstr "Status"
+
+msgid "学生からのコメント"
+msgstr "Message from student"
+
+msgid "タイトル"
+msgstr "Title"
+
+msgid "タイトル："
+msgstr "Title: "
+
+msgid "ユニットタイトル"
+msgstr "Unit"
+
+#: labo/index.tpl:462
+msgid "この時間割は、休講や補講等の情報は更新されていません。正しい情報は、インフォメーションシステムで確認してください。"
+msgstr "Please see the portal site for upgraded information."
+
+#: admin/index.tpl:7
+msgid "勤務/業務管理"
+msgstr "Daily roster management"
+
+#: admin/index.tpl:8
+msgid "学期前シフト管理"
+msgstr "Term roster management"
+
+#: admin/menu.tpl:32
+msgid "シフト調整"
+msgstr "Daily roster management"
+
+#: admin/menu.tpl:33
+msgid "シフト作成"
+msgstr "Term roster management"
+
+#: tecfolio/shared/common_dialog.tpl:119
+msgid ""
+"Myテーマから「%1」を削除します。削除すると、「ファイル置場」「ポートフォリオ」「ルーブリック」すべてのデータが消滅します。よろしいですか？"
+msgstr "The theme \"%1\" will be removed from My Theme. If the operation was done, all data will become void from \"File Box\", \"Portfolio\" and \"Rubric\".  Are you sure?"
+
