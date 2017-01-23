@@ -1,5 +1,5 @@
 
--- ƒLƒƒƒ“ƒpƒXƒ}ƒXƒ^
+-- ã‚­ãƒ£ãƒ³ãƒ‘ã‚¹ãƒã‚¹ã‚¿
 create table public.m_campuses (
   id bigint not null
   , campus_name text not null
@@ -12,7 +12,7 @@ create table public.m_campuses (
   , primary key (id)
 ) ;
 
--- •¶‘í•Êƒ}ƒXƒ^
+-- æ–‡æ›¸ç¨®åˆ¥ãƒã‚¹ã‚¿
 create table public.m_dockinds (
   id bigint not null
   , document_category text not null
@@ -25,7 +25,7 @@ create table public.m_dockinds (
   , primary key (id)
 ) ;
 
--- Šw•”ƒ}ƒXƒ^
+-- å­¦éƒ¨ãƒã‚¹ã‚¿
 create table public.m_faculties (
   id integer not null
   , name text not null
@@ -75,7 +75,7 @@ create table public.m_library_ranges (
   , primary key (id)
 ) ;
 
--- Œ ŒÀƒ}ƒXƒ^
+-- æ¨©é™ãƒã‚¹ã‚¿
 create table public.m_permissions (
   id integer not null
   , m_member_roles text not null
@@ -91,7 +91,7 @@ create table public.m_permissions (
   , primary key (id)
 ) ;
 
--- ‘Š’kêŠƒ}ƒXƒ^
+-- ç›¸è«‡å ´æ‰€ãƒã‚¹ã‚¿
 create table public.m_places (
   id bigint not null
   , consul_place text not null
@@ -116,7 +116,7 @@ create table public.m_ranges (
   , primary key (id)
 ) ;
 
--- İ’èƒ}ƒXƒ^
+-- è¨­å®šãƒã‚¹ã‚¿
 create table public.m_settings (
   id bigint not null
   , name text not null
@@ -132,7 +132,7 @@ create table public.m_settings (
 alter table public.m_settings add constraint m_settings_name_key
   unique (name) ;
 
--- ƒVƒtƒgƒ}ƒXƒ^
+-- ã‚·ãƒ•ãƒˆãƒã‚¹ã‚¿
 create table public.m_shifts (
   id bigint not null
   , m_term_id bigint not null
@@ -148,7 +148,7 @@ create table public.m_shifts (
   , primary key (id)
 ) ;
 
--- ŠwŠúƒ}ƒXƒ^
+-- å­¦æœŸãƒã‚¹ã‚¿
 create table public.m_terms (
   id bigint not null
   , name text not null
@@ -164,7 +164,7 @@ create table public.m_terms (
   , primary key (id)
 ) ;
 
--- ŒÀŠÔƒ}ƒXƒ^
+-- æ™‚é™æ™‚é–“ãƒã‚¹ã‚¿
 create table public.m_timetables (
   id integer not null
   , starttime time without time zone not null
@@ -257,7 +257,7 @@ create table public.t_courses (
   , primary key (id)
 ) ;
 
--- ƒtƒ@ƒCƒ‹
+-- ãƒ•ã‚¡ã‚¤ãƒ«
 create table public.t_files (
   id integer not null
   , data bytea not null
@@ -296,7 +296,7 @@ create table public.t_groups (
   , primary key (id)
 ) ;
 
--- ‚¨’m‚ç‚¹“Y•tƒtƒ@ƒCƒ‹
+-- ãŠçŸ¥ã‚‰ã›æ·»ä»˜ãƒ•ã‚¡ã‚¤ãƒ«
 create table public.t_infomation_files (
   id bigint not null
   , t_infomation_id integer default 0 not null
@@ -308,7 +308,7 @@ create table public.t_infomation_files (
   , primary key (id)
 ) ;
 
--- ‚¨’m‚ç‚¹
+-- ãŠçŸ¥ã‚‰ã›
 create table public.t_infomations (
   id integer not null
   , title text not null
@@ -329,7 +329,7 @@ create table public.t_infomations (
   , primary key (id)
 ) ;
 
--- ŠÔŠ„’S“–ƒe[ƒuƒ‹
+-- æ™‚é–“å‰²æ‹…å½“ãƒ†ãƒ¼ãƒ–ãƒ«
 create table public.t_jikanwari_kyoin (
   jyu_nendo character varying(8) not null
   , jyu_knr_no character varying(12) not null
@@ -342,7 +342,7 @@ create table public.t_jikanwari_kyoin (
   , primary key (jyu_nendo,jyu_knr_no,kyoincd)
 ) ;
 
--- w“±“à—e
+-- æŒ‡å°å†…å®¹
 create table public.t_leadings (
   id integer not null
   , t_reserve_id character varying default 0 not null
@@ -388,7 +388,7 @@ create table public.t_leadings_tmp (
   , primary key (id)
 ) ;
 
--- ƒ†[ƒU[‘®«ƒe[ƒuƒ‹
+-- ãƒ¦ãƒ¼ã‚¶ãƒ¼å±æ€§ãƒ†ãƒ¼ãƒ–ãƒ«
 create table public.t_member_attribute (
   id character varying(8) not null
   , password text
@@ -503,7 +503,7 @@ create table public.t_member_portfolio_tags (
   , primary key (id)
 ) ;
 
--- m_members ‚ÉŠÖ˜A•t‚¢‚½ƒ†[ƒU[ƒvƒƒtƒB[ƒ‹
+-- m_members ã«é–¢é€£ä»˜ã„ãŸãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«
 create table public.t_member_profiles (
   id integer not null
   , m_member_id text not null
@@ -579,7 +579,7 @@ create table public.t_preview_course_reports (
   , primary key (id)
 ) ;
 
--- ƒŠƒ}ƒCƒ“ƒ_[ƒ[ƒ‹
+-- ãƒªãƒã‚¤ãƒ³ãƒ€ãƒ¼ãƒ¡ãƒ¼ãƒ«
 create table public.t_reminders (
   id integer not null
   , t_reserve_id character varying default 0 not null
@@ -596,7 +596,7 @@ create table public.t_reminders (
   , primary key (id)
 ) ;
 
--- —\–ñƒRƒƒ“ƒg“Y•tƒtƒ@ƒCƒ‹
+-- äºˆç´„ã‚³ãƒ¡ãƒ³ãƒˆæ·»ä»˜ãƒ•ã‚¡ã‚¤ãƒ«
 create table public.t_reserve_comment_files (
   id integer not null
   , t_reserve_comment_id bigint default 0 not null
@@ -608,7 +608,7 @@ create table public.t_reserve_comment_files (
   , primary key (id)
 ) ;
 
--- —\–ñƒRƒƒ“ƒg
+-- äºˆç´„ã‚³ãƒ¡ãƒ³ãƒˆ
 create table public.t_reserve_comments (
   id integer not null
   , t_reserve_id character varying not null
@@ -620,7 +620,7 @@ create table public.t_reserve_comments (
   , primary key (id)
 ) ;
 
--- —\–ñ“Y•tƒtƒ@ƒCƒ‹
+-- äºˆç´„æ·»ä»˜ãƒ•ã‚¡ã‚¤ãƒ«
 create table public.t_reserve_files (
   id integer not null
   , t_reserve_id character varying default 0 not null
@@ -653,7 +653,7 @@ create table public.t_reserve_history (
   , primary key (id)
 ) ;
 
--- ƒVƒtƒg’S“–Ò
+-- ã‚·ãƒ•ãƒˆæ‹…å½“è€…
 create table public.t_shiftcharges (
   id integer not null
   , reservationdate date not null
@@ -666,7 +666,7 @@ create table public.t_shiftcharges (
   , primary key (id)
 ) ;
 
--- “ú•t/ŠÔ‘Ñ•ÊƒXƒ^ƒbƒtƒVƒtƒg
+-- æ—¥ä»˜/æ™‚é–“å¸¯åˆ¥ã‚¹ã‚¿ãƒƒãƒ•ã‚·ãƒ•ãƒˆ
 create table public.t_shiftdetails (
   id integer not null
   , m_member_id text default '0' not null
@@ -681,7 +681,7 @@ create table public.t_shiftdetails (
   , primary key (id)
 ) ;
 
--- ƒVƒtƒgó“ü”
+-- ã‚·ãƒ•ãƒˆå—å…¥æ•°
 create table public.t_shiftlimits (
   id integer not null
   , reservationdate date not null
@@ -695,7 +695,7 @@ create table public.t_shiftlimits (
   , primary key (id)
 ) ;
 
--- ƒXƒ^ƒbƒtƒVƒtƒg
+-- ã‚¹ã‚¿ãƒƒãƒ•ã‚·ãƒ•ãƒˆ
 create table public.t_staffshifts (
   id integer not null
   , m_member_id text default '0' not null
@@ -708,7 +708,7 @@ create table public.t_staffshifts (
   , primary key (id)
 ) ;
 
--- ƒƒ“ƒo[ƒ[ƒNƒtƒ@ƒCƒ‹
+-- ãƒ¡ãƒ³ãƒãƒ¼ãƒ¯ãƒ¼ã‚¯ãƒ•ã‚¡ã‚¤ãƒ«
 create table public.t_work_files (
   id integer not null
   , m_member_id text not null
@@ -721,7 +721,7 @@ create table public.t_work_files (
 ) ;
 
 
--- Šw‰Èƒ}ƒXƒ^ƒe[ƒuƒ‹
+-- å­¦ç§‘ãƒã‚¹ã‚¿ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.m_gakka (
   bu character varying(4)
   , gakubu character varying(8)
@@ -733,7 +733,7 @@ create table tecdb.m_gakka (
   , lastupdater text not null
 ) ;
 
--- Šw•”ƒ}ƒXƒ^ƒe[ƒuƒ‹
+-- å­¦éƒ¨ãƒã‚¹ã‚¿ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.m_gakubu (
   bu character varying(4)
   , gakubu character varying(8)
@@ -744,7 +744,7 @@ create table tecdb.m_gakubu (
   , lastupdater text not null
 ) ;
 
--- ƒ†[ƒU[ƒ}ƒXƒ^
+-- ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒã‚¹ã‚¿
 create table tecdb.m_members (
   id character varying(8) not null
   , usr_kn character varying(1)
@@ -786,7 +786,7 @@ create table tecdb.m_members (
   , primary key (id)
 ) ;
 
--- ”N“xƒ}ƒXƒ^
+-- å¹´åº¦ãƒã‚¹ã‚¿
 create table tecdb.m_nendo (
   id integer not null
   , current_nendo character varying(4) not null
@@ -795,7 +795,7 @@ create table tecdb.m_nendo (
   , primary key (id)
 ) ;
 
--- ö‹Æ‰È–Úƒ}ƒXƒ^(ö‹Æ–¾×)
+-- æˆæ¥­ç§‘ç›®ãƒã‚¹ã‚¿(æˆæ¥­æ˜ç´°)
 create table tecdb.m_subjects (
   jyu_nendo character varying(8) not null
   , jyu_knr_no character varying(12) not null
@@ -820,7 +820,7 @@ create table tecdb.m_subjects (
   , primary key (jyu_nendo,jyu_knr_no,jyu_knr_no_sub,kyoincd)
 ) ;
 
--- •Âºİ’èƒe[ƒuƒ‹
+-- é–‰å®¤è¨­å®šãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_closuredates (
   id integer not null
   , closuredate date not null
@@ -830,7 +830,7 @@ create table tecdb.t_closuredates (
   , primary key (id)
 ) ;
 
--- ö‹Æ‰È–ÚƒŠƒXƒg
+-- æˆæ¥­ç§‘ç›®ãƒªã‚¹ãƒˆ
 create table tecdb.t_course_list (
   jyu_nendo character varying(8) not null
   , jyu_knr_no character varying(12) not null
@@ -855,7 +855,7 @@ create table tecdb.t_course_list (
   , primary key (jyu_nendo,jyu_knr_no,jyu_knr_no_sub,kyoincd)
 ) ;
 
--- —šCÒ–¼•ëƒe[ƒuƒ‹
+-- å±¥ä¿®è€…åç°¿ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_course_roster (
   gakse_id character varying(12) not null
   , gaksekno character varying(20) not null
@@ -869,7 +869,7 @@ create table tecdb.t_course_roster (
   , primary key (gakse_id,risyunen,semekikn,kougicd)
 ) ;
 
--- ŠÔŠ„’S“–ƒe[ƒuƒ‹
+-- æ™‚é–“å‰²æ‹…å½“ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_jikanwari_kyoin (
   jyu_nendo character varying(8) not null
   , jyu_knr_no character varying(12) not null
@@ -883,7 +883,7 @@ create table tecdb.t_jikanwari_kyoin (
   , primary key (jyu_nendo,jyu_knr_no,kyoincd)
 ) ;
 
--- ö‹ÆEŠÔŠ„“ú’ö_ƒe[ƒuƒ‹
+-- æˆæ¥­ãƒ»æ™‚é–“å‰²æ—¥ç¨‹_ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_jyugyo_jikanwari (
   jyu_nendo character varying(8) not null
   , jyu_knr_no character varying(12) not null
@@ -904,7 +904,7 @@ create table tecdb.t_jyugyo_jikanwari (
   , primary key (jyu_nendo,jyu_knr_no,jwari_seq,riyou_kn,jyugyo_seq)
 ) ;
 
--- ö‹ÆŠÇ—ƒe[ƒuƒ‹
+-- æˆæ¥­ç®¡ç†ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_jyugyo_kanri (
   jyu_nendo character varying(8) not null
   , jyu_knr_no character varying(12) not null
@@ -916,7 +916,7 @@ create table tecdb.t_jyugyo_kanri (
   , primary key (jyu_nendo,jyu_knr_no)
 ) ;
 
--- ‹³Eˆõ‚TŒ…‚WŒ…ƒ}ƒbƒsƒ“ƒOƒe[ƒuƒ‹
+-- æ•™è·å“¡ï¼•æ¡ï¼˜æ¡ãƒãƒƒãƒ”ãƒ³ã‚°ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_kyoin8_5_m (
   ky_kyoincd character varying(10)
   , ky_jkyoincd8 character varying(16)
@@ -924,7 +924,7 @@ create table tecdb.t_kyoin8_5_m (
   , lastupdater text not null
 ) ;
 
--- w“±“à—eƒe[ƒuƒ‹
+-- æŒ‡å°å†…å®¹ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_leadings (
   id integer not null
   , t_reserve_id character varying default 0 not null
@@ -946,7 +946,7 @@ create table tecdb.t_leadings (
   , primary key (id)
 ) ;
 
--- w“±“à—e
+-- æŒ‡å°å†…å®¹
 create table tecdb.t_leadings_tmp (
   id integer not null
   , t_reserve_id character varying default 0 not null
@@ -963,6 +963,18 @@ create table tecdb.t_leadings_tmp (
   , cancel_flag text default '0'
   , createdate timestamp without time zone not null
   , creator text not null
+  , lastupdate timestamp without time zone not null
+  , lastupdater text not null
+  , primary key (id)
+) ;
+
+-- tecdb.t_member_attribute
+create table tecdb.t_member_attribute (
+  id character varying(8) not null
+  , password text not null
+  , roles text not null
+  , languages integer default 0 not null
+  , display_flg integer default 0 not null
   , lastupdate timestamp without time zone not null
   , lastupdater text not null
   , primary key (id)
@@ -1001,7 +1013,7 @@ create table tecdb.t_reserve_history (
   , primary key (id)
 ) ;
 
--- —\–ñƒe[ƒuƒ‹
+-- äºˆç´„ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_reserves (
   id character varying not null
   , m_member_id_reserver character varying(8) default '0' not null
@@ -1031,7 +1043,7 @@ create table tecdb.t_reserves (
   , primary key (id)
 ) ;
 
--- Š‘®‚Pƒe[ƒuƒ‹
+-- æ‰€å±ï¼‘ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_syozoku1 (
   setti_cd character varying(8) not null
   , syozkcd1 character varying(20) not null
@@ -1055,7 +1067,7 @@ create table tecdb.t_syozoku1 (
   , primary key (setti_cd,syozkcd1)
 ) ;
 
--- Š‘®‚Qƒe[ƒuƒ‹
+-- æ‰€å±ï¼’ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecdb.t_syozoku2 (
   setti_cd character varying(8) not null
   , syozkcd1 character varying(20) not null
@@ -1077,7 +1089,7 @@ create table tecdb.t_syozoku2 (
 ) ;
 
 
--- Myƒe[ƒ}EŠw“à{İƒ}ƒXƒ^
+-- Myãƒ†ãƒ¼ãƒãƒ»å­¦å†…æ–½è¨­ãƒã‚¹ã‚¿
 create table tecfolio.m_mythemes (
   id character varying not null
   , m_member_id character varying(8) default '0' not null
@@ -1093,7 +1105,7 @@ create table tecfolio.m_mythemes (
   , primary key (id)
 ) ;
 
--- ƒ‹[ƒuƒŠƒbƒNƒ}ƒXƒ^
+-- ãƒ«ãƒ¼ãƒ–ãƒªãƒƒã‚¯ãƒã‚¹ã‚¿
 create table tecfolio.m_rubric (
   id character varying not null
   , original_id character varying
@@ -1111,7 +1123,7 @@ create table tecfolio.m_rubric (
   , primary key (id)
 ) ;
 
--- “o˜^ö‹Æ‰È–Úƒ}ƒXƒ^
+-- ç™»éŒ²æˆæ¥­ç§‘ç›®ãƒã‚¹ã‚¿
 create table tecfolio.m_subjects_registered (
   id character varying not null
   , jyu_nendo character varying(8) not null
@@ -1139,7 +1151,7 @@ create table tecfolio.m_subjects_registered (
   , primary key (id)
 ) ;
 
--- ‘Š’k“à—e(ƒƒ“ƒ^[)ƒe[ƒuƒ‹
+-- ç›¸è«‡å†…å®¹(ãƒ¡ãƒ³ã‚¿ãƒ¼)ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_chat_mentor (
   id integer not null
   , m_mytheme_id character varying not null
@@ -1155,7 +1167,7 @@ create table tecfolio.t_chat_mentor (
   , primary key (id)
 ) ;
 
--- ‘Š’k“à—e(ö‹Æ‰È–Ú)ƒe[ƒuƒ‹
+-- ç›¸è«‡å†…å®¹(æˆæ¥­ç§‘ç›®)ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_chat_subject (
   id integer not null
   , m_subject_reg_id character varying not null
@@ -1170,7 +1182,7 @@ create table tecfolio.t_chat_subject (
   , primary key (id)
 ) ;
 
--- ‘Š’k“à—e(ö‹Æ‰È–Ú)EƒRƒ“ƒeƒ“ƒcŠÔƒ}ƒbƒsƒ“ƒOƒe[ƒuƒ‹
+-- ç›¸è«‡å†…å®¹(æˆæ¥­ç§‘ç›®)ãƒ»ã‚³ãƒ³ãƒ†ãƒ³ãƒ„é–“ãƒãƒƒãƒ”ãƒ³ã‚°ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_chat_subject_contents (
   id character varying not null
   , t_chat_subject_id integer not null
@@ -1182,7 +1194,7 @@ create table tecfolio.t_chat_subject_contents (
   , primary key (id)
 ) ;
 
--- “Y•tƒtƒ@ƒCƒ‹À‘Ìƒe[ƒuƒ‹
+-- æ·»ä»˜ãƒ•ã‚¡ã‚¤ãƒ«å®Ÿä½“ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_content_files (
   id integer not null
   , data bytea not null
@@ -1196,7 +1208,7 @@ create table tecfolio.t_content_files (
   , primary key (id)
 ) ;
 
--- ƒRƒ“ƒeƒ“ƒcƒe[ƒuƒ‹
+-- ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_contents (
   id character varying not null
   , m_mytheme_id character varying not null
@@ -1214,7 +1226,7 @@ create table tecfolio.t_contents (
   , primary key (id)
 ) ;
 
--- “o˜^—šCÒ–¼•ëƒe[ƒuƒ‹
+-- ç™»éŒ²å±¥ä¿®è€…åç°¿ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_course_roster_registered (
   m_member_id character varying(8)
   , gakse_id character varying(12) not null
@@ -1233,7 +1245,7 @@ create table tecfolio.t_course_roster_registered (
   , primary key (gakse_id,risyunen,semekikn,kougicd)
 ) ;
 
--- “o˜^ö‹ÆŠÇ—ƒe[ƒuƒ‹
+-- ç™»éŒ²æˆæ¥­ç®¡ç†ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_jyugyo_jikanwari_registered (
   jyu_nendo character varying(8) not null
   , jyu_knr_no character varying(12) not null
@@ -1256,7 +1268,7 @@ create table tecfolio.t_jyugyo_jikanwari_registered (
   , primary key (jyu_nendo,jyu_knr_no,jwari_seq,riyou_kn,jyugyo_seq)
 ) ;
 
--- ƒƒ“ƒ^[ƒe[ƒuƒ‹
+-- ãƒ¡ãƒ³ã‚¿ãƒ¼ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_mentors (
   id character varying not null
   , m_mytheme_id character varying not null
@@ -1272,7 +1284,7 @@ create table tecfolio.t_mentors (
   , primary key (id)
 ) ;
 
--- ƒ|[ƒgƒtƒHƒŠƒIƒe[ƒuƒ‹
+-- ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒªã‚ªãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_portfolio (
   id character varying not null
   , m_mytheme_id character varying not null
@@ -1288,7 +1300,7 @@ create table tecfolio.t_portfolio (
   , primary key (id)
 ) ;
 
--- ƒ|[ƒgƒtƒHƒŠƒIEƒRƒ“ƒeƒ“ƒcŠÔƒ}ƒbƒsƒ“ƒOƒe[ƒuƒ‹
+-- ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒªã‚ªãƒ»ã‚³ãƒ³ãƒ†ãƒ³ãƒ„é–“ãƒãƒƒãƒ”ãƒ³ã‚°ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_portfolio_contents (
   id character varying not null
   , t_portfolio_id character varying not null
@@ -1300,7 +1312,7 @@ create table tecfolio.t_portfolio_contents (
   , primary key (id)
 ) ;
 
--- ŒÂlî•ñİ’èƒe[ƒuƒ‹
+-- å€‹äººæƒ…å ±è¨­å®šãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_profiles (
   m_member_id character varying(8) not null
   , nickname character varying(100)
@@ -1340,7 +1352,7 @@ create table tecfolio.t_profiles (
   , primary key (m_member_id)
 ) ;
 
--- ©ŒÈ•]‰¿ƒe[ƒuƒ‹
+-- è‡ªå·±è©•ä¾¡ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_rubric_input (
   id integer not null
   , t_portfolio_id character varying not null
@@ -1353,7 +1365,7 @@ create table tecfolio.t_rubric_input (
   , primary key (id)
 ) ;
 
--- ƒ‰ƒCƒZƒ“ƒXƒe[ƒuƒ‹
+-- ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_rubric_license (
   id integer not null
   , name character varying not null
@@ -1362,7 +1374,7 @@ create table tecfolio.t_rubric_license (
   , primary key (id)
 ) ;
 
--- ƒ‹[ƒuƒŠƒbƒNEƒe[ƒ}ŠÔƒ}ƒbƒsƒ“ƒOƒe[ƒuƒ‹
+-- ãƒ«ãƒ¼ãƒ–ãƒªãƒƒã‚¯ãƒ»ãƒ†ãƒ¼ãƒé–“ãƒãƒƒãƒ”ãƒ³ã‚°ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_rubric_map (
   id integer not null
   , parent_id character varying not null
@@ -1375,7 +1387,7 @@ create table tecfolio.t_rubric_map (
   , primary key (id)
 ) ;
 
--- ƒ‹[ƒuƒŠƒbƒNÚ×ƒe[ƒuƒ‹
+-- ãƒ«ãƒ¼ãƒ–ãƒªãƒƒã‚¯è©³ç´°ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_rubric_matrix (
   id integer not null
   , m_rubric_id character varying not null
@@ -1390,7 +1402,7 @@ create table tecfolio.t_rubric_matrix (
   , primary key (id)
 ) ;
 
--- ƒƒ“ƒ^[•]‰¿ƒe[ƒuƒ‹
+-- ãƒ¡ãƒ³ã‚¿ãƒ¼è©•ä¾¡ãƒ†ãƒ¼ãƒ–ãƒ«
 create table tecfolio.t_rubric_mentor (
   id integer not null
   , t_portfolio_id character varying not null
@@ -1402,6 +1414,5 @@ create table tecfolio.t_rubric_mentor (
   , lastupdater text not null
   , primary key (id)
 ) ;
-
 
 
