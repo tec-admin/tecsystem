@@ -257,6 +257,7 @@ dumpデータの復元で必要なテーブルと学生ID、スタッフID、管
 
 
 dumpデータの復元
+
      $ cat tecsystem.dmp | psql tecfoliodb
 
 <br>
@@ -325,3 +326,15 @@ dumpデータの復元
     'protocol'	=>'SMTP',
   );
 ```
+
+## ９．ログイン画面の確認
+---
+
+- ログインURL
+
+xxx.xxx.xxxは、ｻｰﾊﾞｰ名(IPアドレス)
+
+http://xxx.xxx.xxx/kwl/auth/login
+
+```
+
