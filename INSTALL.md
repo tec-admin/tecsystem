@@ -250,8 +250,11 @@ postgresqlの再起動
 dumpデータの復元で必要なテーブルと学生ID、スタッフID、管理者IDがDBに作成されます。
 
 ・学生ID    student  PW:student
+
 ・スタッフID  staff    PW:staff
+
 ・管理者ID   admin   PW:admin
+
 
 dumpデータの復元
      $ cat tecsystem.dmp | psql tecfoliodb
