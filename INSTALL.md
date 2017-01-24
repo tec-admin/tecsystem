@@ -258,6 +258,7 @@ dumpデータの復元で必要なテーブルと学生ID、スタッフID、管
 
 dumpデータの復元
 
+     $ createdb tecfoliodb
      $ cat tecsystem.dmp | psql tecfoliodb
 
 <br>
