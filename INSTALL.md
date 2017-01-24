@@ -245,40 +245,16 @@ postgresqlの再起動
 
 <br>
 
-## ５．postgresqlの設定とテーブル作成
+## ５．postgresqlデータ作成
 ---
+dumpデータの復元で必要なテーブルと学生ID、スタッフID、管理者IDがDBに作成されます。
 
-データベースアカウント"postgres"でpsqlへログイン
+・学生ID    student  PW:student
+・スタッフID  staff    PW:staff
+・管理者ID   admin   PW:admin
 
-    $ psql -U postgres
-
-以下、psqlでの操作
-
-    postgres=#  create database tecfoliodb;       データベース作成
-    postgres=#  create role tecfolio;             role作成
-    postgres=#  select rolname from pg_roles;     確認
-    postgres=#  alter role tecfolio login;        ログイン権限付与
-    postgres=#  alter role tecfolio createdb;     createdb権限付与
-    postgres=#  \q
-
-テーブル作成
-
-    $ psql -f tecfolio_tables.sql -U tecfolio -d tecfoliodb
-
-あるいは、
-
-    $ psql -U tecfolio -d tecfoliodb
-    tecfoliodb=>\i tecfolio_tables.sql
-
-
-管理者用ID 作成
-
-    $ psql -f tecfolio_admin_settings.sql -U tecfolio -d tecfoliodb
-
-あるいは、
-
-    $ psql -U tecfolio -d tecfoliodb
-    tecfoliodb=>\i tecfolio_admin_settings.sql
+dumpデータの復元
+     $ cat tecsystem.dmp | psql tecfoliodb
 
 <br>
 
